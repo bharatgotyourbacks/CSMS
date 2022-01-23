@@ -1,0 +1,2843 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page ID="100" Type="Page" Name="Page-1" Zoom="1" Unit="mm" PrePaper="13">
+    <PageProps>
+        <Width V="1122.52"/>
+        <Height V="793.701"/>
+        <UnitWidth V="210"/>
+        <UnitHeight V="297"/>
+        <PageBreakWidth V="1122.52"/>
+        <PageBreakHeight V="793.701"/>
+        <Portrait V="FALSE"/>
+        <AutoSize V="TRUE"/>
+        <PageBreakLeft V="0"/>
+        <PageBreakTop V="0"/>
+        <PageBreakRight V="1"/>
+        <PageBreakBottom V="1"/>
+        <ScrollX V="0.5"/>
+        <ScrollY V="0.432998"/>
+        <OrgDirection V="1"/>
+    </PageProps>
+    <Layout>
+        <JumpMode V="1"/>
+        <JumpStyle V="0"/>
+        <JumpSize V="6"/>
+        <NumbLevel V="0"/>
+        <mmMajor V="20"/>
+        <mmMinor V="10"/>
+        <OrgVerDist V="20"/>
+        <OrgHorDist V="20"/>
+        <OrgHorAss V="8"/>
+        <HpScale V="50"/>
+        <HpPrecistion V="0.0"/>
+        <HpDispMode V="0"/>
+    </Layout>
+    <OrgFieldDisplay ShowPhoto="FALSE" NoSize="FALSE" PhotoPos="0" Width="120" Height="60" PhotoLinePos="0" TextVertical="FALSE">
+        <OrgField Show="TRUE" ID="1" Name="Name" NameU="Name" Flag="0" Title="FALSE">
+            <Value V="" U="STR"/>
+            <Font Family="Arial" Size="9" Color="#444444"/>
+        </OrgField>
+        <OrgField Show="TRUE" ID="2" Name="Title" NameU="Title" Flag="0" Title="FALSE">
+            <Value V="" U="STR"/>
+            <Font Family="Arial" Size="9" Color="#444444"/>
+        </OrgField>
+        <OrgField Show="TRUE" ID="6" Name="Department" NameU="Department" Flag="0" Title="FALSE">
+            <Value V="" U="STR"/>
+            <Font Family="Arial" Size="9" Color="#444444"/>
+        </OrgField>
+        <OrgField Show="FALSE" ID="7" Name="Email" NameU="Email" Flag="0" Title="FALSE">
+            <Value V="" U="STR"/>
+            <Font Family="Arial" Size="9" Color="#444444"/>
+        </OrgField>
+        <OrgField Show="FALSE" ID="8" Name="Work Phone" NameU="WPhone" Flag="0" Title="FALSE">
+            <Value V="" U="STR"/>
+            <Font Family="Arial" Size="9" Color="#444444"/>
+        </OrgField>
+    </OrgFieldDisplay>
+    <OrgFields/>
+    <FillFormat Type="None"/>
+    <BGFromTheme V="1"/>
+    <PrintSetup FittoSheet="FALSE" Zoom="100" Width="210" Height="297" Unit="mm" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10"/>
+    <Layers>
+        <Layer Name="Background" ID="1" Invisible="FALSE" Lock="TRUE" Print="TRUE" Active="FALSE" Background="TRUE" Snap="TRUE"/>
+        <Layer Name="Layer-1" ID="2" Invisible="FALSE" Lock="FALSE" Print="TRUE" Active="TRUE" Background="FALSE" Snap="TRUE"/>
+    </Layers>
+    <Theme ID="36" Name="General">
+        <ThemeColor V="34"/>
+        <ThemeEffect V="36"/>
+        <ThemeText V="3"/>
+        <ThemeConnector V="54"/>
+    </Theme>
+    <MMTheme ID="40" Rainbow="0" Name="Vitality">
+        <ThemeColor V="47"/>
+        <ThemeEffect V="40"/>
+        <ThemeText V="40"/>
+        <ThemeShape V="40"/>
+    </MMTheme>
+    <Shape Type="Shape" ID="101" Layer="2" NameU="Process">
+        <Transform>
+            <Width V="145.5"/>
+            <Height V="139"/>
+            <Angle V="0"/>
+            <GPinX V="563.75"/>
+            <GPinY V="289.5"/>
+            <LocPinX V="72.75" R="0.5" M="1"/>
+            <LocPinY V="69.5" R="0.5" M="2"/>
+            <FlipX V="0"/>
+            <FlipY V="0"/>
+        </Transform>
+        <LevelData>
+            <LibId V="267"/>
+        </LevelData>
+        <Controls>
+            <Control Name="C1" ID="1">
+                <X V="0"/>
+                <Y V="26"/>
+                <DynX V="0"/>
+                <DynY V="0"/>
+                <XBehaviour V="1" U="INT"/>
+                <YBehaviour V="2" U="INT"/>
+                <CanGlue V="0"/>
+                <AutoSnap V="0"/>
+                <Disabled V="0"/>
+                <Prompt V="Shape Control"/>
+            </Control>
+        </Controls>
+        <Variants>
+            <Variant Name="TxtExtendH" ID="1">
+                <Value V="1" F="SETVAL(&quot;Height&quot;,Text.T1.Height+Numbers.Y1)"/>
+            </Variant>
+        </Variants>
+        <CPoints>
+            <CPoint Name="Pt1" ID="1" Type="0">
+                <X V="0"/>
+                <Y V="69.5" R="0.5" M="2"/>
+            </CPoint>
+            <CPoint Name="Pt2" ID="2" Type="0">
+                <X V="72.75" R="0.5" M="1"/>
+                <Y V="0"/>
+            </CPoint>
+            <CPoint Name="Pt3" ID="3" Type="0">
+                <X V="145.5" R="1" M="1"/>
+                <Y V="69.5" R="0.5" M="2"/>
+            </CPoint>
+            <CPoint Name="Pt4" ID="4" Type="0">
+                <X V="72.75" R="0.5" M="1"/>
+                <Y V="139" R="1" M="2"/>
+            </CPoint>
+        </CPoints>
+        <Numbers>
+            <Number>
+                <X V="26" F="Controls.C1.Y"/>
+                <Y V="26" F="MAX(MIN(Height,Controls.C1.Y),0)"/>
+                <A V="0"/>
+                <B V="0"/>
+            </Number>
+        </Numbers>
+        <Misc>
+            <ObjectType V="2"/>
+        </Misc>
+        <ShapeFormat QuickMask="262451">
+            <FillFormat Type="Solid">
+                <Color V="#ffffbf28" ThemeColor="7"/>
+            </FillFormat>
+            <LineFormat>
+                <LineWeight V="1"/>
+                <LineCap V="Flat"/>
+                <Rounding V="7.55906"/>
+                <LinePattern ID="1"/>
+                <BeginArrow ID="0" Size="4"/>
+                <EndArrow ID="0" Size="4"/>
+                <LineFill Type="Solid">
+                    <Color V="#ff323232" ThemeColor="5" Shade="90" Ref="#999999"/>
+                </LineFill>
+            </LineFormat>
+            <EffectFormat>
+                <Shadow Mode="0"/>
+            </EffectFormat>
+        </ShapeFormat>
+        <Texts>
+            <Text ID="1" Name="T1" ExtendMode="0">
+                <Transform>
+                    <Width V="145.5" R="1" M="1"/>
+                    <Height V="113" F="GUARD(Height-Numbers.Y1)"/>
+                    <Angle V="0"/>
+                    <GPinX V="0"/>
+                    <GPinY V="139" R="1" M="2"/>
+                    <LocPinX V="0"/>
+                    <LocPinY V="113" F="Text.T1.Height*1"/>
+                    <TxtField V="" U="STR"/>
+                </Transform>
+                <TextBlock VAlign="Center" TextFormatMask="0">
+                    <Color V="#ff191919"/>
+                    <Character IX="0" Family="Arial" Size="12" Color="#191919"/>
+                    <Paragraph IX="0" SpLine="100" Align="4" IndFirst="0" IndLeft="0" IndRight="0" SpaceBefore="0" SpaceAfter="0"/>
+                    <Text>
+                        <pp PX="0" CX="0">
+                            <tp CX="0">Cold </tp>
+                        </pp>
+                        <pp PX="0" CX="0">
+                            <tp CX="0">storage</tp>
+                        </pp>
+                        <pp PX="0" CX="0">
+                            <tp CX="0">management</tp>
+                        </pp>
+                        <pp PX="0" CX="0">
+                            <tp CX="0">system</tp>
+                        </pp>
+                    </Text>
+                </TextBlock>
+            </Text>
+            <Text ID="2" Name="T2" ExtendMode="0">
+                <Transform>
+                    <Width V="145.5" R="1" M="1"/>
+                    <Height V="26" F="GUARD(Numbers.Y1)"/>
+                    <Angle V="0"/>
+                    <GPinX V="0"/>
+                    <GPinY V="0"/>
+                    <LocPinX V="0"/>
+                    <LocPinY V="0"/>
+                    <TxtField V="" U="STR"/>
+                </Transform>
+                <TextBlock VAlign="Center" TextFormatMask="0">
+                    <Color V="#ff191919"/>
+                    <Character IX="0" Family="Arial" Size="12" Color="#191919"/>
+                    <Paragraph IX="0" SpLine="100" Align="4" IndFirst="0" IndLeft="0" IndRight="0" SpaceBefore="0" SpaceAfter="0"/>
+                    <Text>
+                        <pp PX="0" CX="0">
+                            <tp CX="0">0.0</tp>
+                        </pp>
+                    </Text>
+                </TextBlock>
+            </Text>
+        </Texts>
+        <Geometries>
+            <Geometry>
+                <NoFill V="0"/>
+                <NoLine V="0"/>
+                <Closed V="1"/>
+                <NoShow V="0"/>
+                <NoSnap V="1"/>
+                <MoveTo>
+                    <X V="145.5" R="1" M="1"/>
+                    <Y V="139" R="1" M="2"/>
+                </MoveTo>
+                <LineTo>
+                    <X V="145.5" R="1" M="1"/>
+                    <Y V="0"/>
+                </LineTo>
+                <LineTo>
+                    <X V="0"/>
+                    <Y V="0"/>
+                </LineTo>
+                <LineTo>
+                    <X V="0"/>
+                    <Y V="139" R="1" M="2"/>
+                </LineTo>
+                <LineTo>
+                    <X V="145.5" R="1" M="1"/>
+                    <Y V="139" R="1" M="2"/>
+                </LineTo>
+            </Geometry>
+            <Geometry>
+                <NoFill V="1"/>
+                <NoLine V="0"/>
+                <Closed V="1"/>
+                <NoShow V="0"/>
+                <NoSnap V="1"/>
+                <MoveTo>
+                    <X V="0"/>
+                    <Y V="26" F="Numbers.Y1"/>
+                </MoveTo>
+                <LineTo>
+                    <X V="145.5" R="1" M="1"/>
+                    <Y V="26" F="Numbers.Y1"/>
+                </LineTo>
+            </Geometry>
+        </Geometries>
+    </Shape>
+    <Shape Type="Shape" ID="102" Layer="2" NameU="Process">
+        <Transform>
+            <Width V="120"/>
+            <Height V="45"/>
+            <Angle V="0"/>
+            <GPinX V="268"/>
+            <GPinY V="242.5"/>
+            <LocPinX V="60" R="0.5" M="1"/>
+            <LocPinY V="22.5" R="0.5" M="2"/>
+            <FlipX V="0"/>
+            <FlipY V="0"/>
+        </Transform>
+        <LevelData>
+            <LibId V="267"/>
+        </LevelData>
+        <CPoints>
+            <CPoint Name="Pt1" ID="1" Type="0">
+                <X V="60" R="0.5" M="1"/>
+                <Y V="45" R="1" M="2"/>
+            </CPoint>
+            <CPoint Name="Pt2" ID="2" Type="0">
+                <X V="60" R="0.5" M="1"/>
+                <Y V="0"/>
+            </CPoint>
+            <CPoint Name="Pt3" ID="3" Type="0">
+                <X V="120" R="1" M="1"/>
+                <Y V="22.5" R="0.5" M="2"/>
+            </CPoint>
+            <CPoint Name="Pt4" ID="4" Type="0">
+                <X V="0"/>
+                <Y V="22.5" R="0.5" M="2"/>
+            </CPoint>
+        </CPoints>
+        <Misc>
+            <ObjectType V="2"/>
+        </Misc>
+        <ShapeFormat QuickMask="266547">
+            <FillFormat Type="Solid">
+                <Color V="#ff35609f" ThemeColor="4" Shade="50" Ref="#4c85d9"/>
+            </FillFormat>
+            <LineFormat>
+                <LineWeight V="1"/>
+                <LineCap V="Flat"/>
+                <Rounding V="7.55906"/>
+                <LinePattern ID="1"/>
+                <BeginArrow ID="0" Size="4"/>
+                <EndArrow ID="0" Size="4"/>
+                <LineFill Type="Solid">
+                    <Color V="#ff4e4e4e" ThemeColor="5" Shade="76" Ref="#999999"/>
+                </LineFill>
+            </LineFormat>
+            <EffectFormat>
+                <Shadow Mode="0"/>
+            </EffectFormat>
+        </ShapeFormat>
+        <Texts>
+            <Text ID="1" Name="T1" ExtendMode="0">
+                <Transform>
+                    <Width V="120" R="1" M="1"/>
+                    <Height V="45" R="1" M="2"/>
+                    <Angle V="0"/>
+                    <GPinX V="60" R="0.5" M="1"/>
+                    <GPinY V="22.5" R="0.5" M="2"/>
+                    <LocPinX V="60" F="Text.T1.Width*0.5"/>
+                    <LocPinY V="22.5" F="Text.T1.Height*0.5"/>
+                    <TxtField V="" U="STR"/>
+                </Transform>
+                <TextBlock VAlign="Center" TextFormatMask="0">
+                    <Color V="#ff191919"/>
+                    <Character IX="0" Family="Arial" Size="12" Color="#191919"/>
+                    <Paragraph IX="0" SpLine="100" Align="4" IndFirst="0" IndLeft="0" IndRight="0" SpaceBefore="0" SpaceAfter="0"/>
+                    <Text>
+                        <pp PX="0" CX="0">
+                            <tp CX="0">Manager</tp>
+                        </pp>
+                    </Text>
+                </TextBlock>
+            </Text>
+        </Texts>
+        <Geometries>
+            <Geometry>
+                <NoFill V="0"/>
+                <NoLine V="0"/>
+                <Closed V="1"/>
+                <NoShow V="0"/>
+                <NoSnap V="1"/>
+                <MoveTo>
+                    <X V="120" R="1" M="1"/>
+                    <Y V="45" R="1" M="2"/>
+                </MoveTo>
+                <LineTo>
+                    <X V="120" R="1" M="1"/>
+                    <Y V="0"/>
+                </LineTo>
+                <LineTo>
+                    <X V="0"/>
+                    <Y V="0"/>
+                </LineTo>
+                <LineTo>
+                    <X V="0"/>
+                    <Y V="45" R="1" M="2"/>
+                </LineTo>
+                <LineTo>
+                    <X V="120" R="1" M="1"/>
+                    <Y V="45" R="1" M="2"/>
+                </LineTo>
+            </Geometry>
+        </Geometries>
+    </Shape>
+    <Shape Type="Shape" ID="103" Layer="2" NameU="Process">
+        <Transform>
+            <Width V="120"/>
+            <Height V="45"/>
+            <Angle V="0"/>
+            <GPinX V="885"/>
+            <GPinY V="242.5"/>
+            <LocPinX V="60" R="0.5" M="1"/>
+            <LocPinY V="22.5" R="0.5" M="2"/>
+            <FlipX V="0"/>
+            <FlipY V="0"/>
+        </Transform>
+        <LevelData>
+            <LibId V="267"/>
+        </LevelData>
+        <CPoints>
+            <CPoint Name="Pt1" ID="1" Type="0">
+                <X V="60" R="0.5" M="1"/>
+                <Y V="45" R="1" M="2"/>
+            </CPoint>
+            <CPoint Name="Pt2" ID="2" Type="0">
+                <X V="60" R="0.5" M="1"/>
+                <Y V="0"/>
+            </CPoint>
+            <CPoint Name="Pt3" ID="3" Type="0">
+                <X V="120" R="1" M="1"/>
+                <Y V="22.5" R="0.5" M="2"/>
+            </CPoint>
+            <CPoint Name="Pt4" ID="4" Type="0">
+                <X V="0"/>
+                <Y V="22.5" R="0.5" M="2"/>
+            </CPoint>
+        </CPoints>
+        <Misc>
+            <ObjectType V="2"/>
+        </Misc>
+        <ShapeFormat QuickMask="266547">
+            <FillFormat Type="Solid">
+                <Color V="#ff00b050"/>
+            </FillFormat>
+            <LineFormat>
+                <LineWeight V="1"/>
+                <LineCap V="Flat"/>
+                <Rounding V="7.55906"/>
+                <LinePattern ID="1"/>
+                <BeginArrow ID="0" Size="4"/>
+                <EndArrow ID="0" Size="4"/>
+                <LineFill Type="Solid">
+                    <Color V="#ff4e4e4e" ThemeColor="5" Shade="76" Ref="#999999"/>
+                </LineFill>
+            </LineFormat>
+            <EffectFormat>
+                <Shadow Mode="0"/>
+            </EffectFormat>
+        </ShapeFormat>
+        <Texts>
+            <Text ID="1" Name="T1" ExtendMode="0">
+                <Transform>
+                    <Width V="120" R="1" M="1"/>
+                    <Height V="45" R="1" M="2"/>
+                    <Angle V="0"/>
+                    <GPinX V="60" R="0.5" M="1"/>
+                    <GPinY V="22.5" R="0.5" M="2"/>
+                    <LocPinX V="60" F="Text.T1.Width*0.5"/>
+                    <LocPinY V="22.5" F="Text.T1.Height*0.5"/>
+                    <TxtField V="" U="STR"/>
+                </Transform>
+                <TextBlock VAlign="Center" TextFormatMask="0">
+                    <Color V="#ff191919"/>
+                    <Character IX="0" Family="Arial" Size="12" Color="#191919"/>
+                    <Paragraph IX="0" SpLine="100" Align="4" IndFirst="0" IndLeft="0" IndRight="0" SpaceBefore="0" SpaceAfter="0"/>
+                    <Text>
+                        <pp PX="0" CX="0">
+                            <tp CX="0">Customer</tp>
+                        </pp>
+                    </Text>
+                </TextBlock>
+            </Text>
+        </Texts>
+        <Geometries>
+            <Geometry>
+                <NoFill V="0"/>
+                <NoLine V="0"/>
+                <Closed V="1"/>
+                <NoShow V="0"/>
+                <NoSnap V="1"/>
+                <MoveTo>
+                    <X V="120" R="1" M="1"/>
+                    <Y V="45" R="1" M="2"/>
+                </MoveTo>
+                <LineTo>
+                    <X V="120" R="1" M="1"/>
+                    <Y V="0"/>
+                </LineTo>
+                <LineTo>
+                    <X V="0"/>
+                    <Y V="0"/>
+                </LineTo>
+                <LineTo>
+                    <X V="0"/>
+                    <Y V="45" R="1" M="2"/>
+                </LineTo>
+                <LineTo>
+                    <X V="120" R="1" M="1"/>
+                    <Y V="45" R="1" M="2"/>
+                </LineTo>
+            </Geometry>
+        </Geometries>
+    </Shape>
+    <Shape Type="ConnectLine" ID="104" Layer="2" NameU="Line Connector">
+        <ConPoints>
+            <BeginX V="615.824"/>
+            <BeginY V="170"/>
+            <EndX V="615.824" F="PNTX(Parent.LOCPNT(Shape101.GeomCrossPt(0,2,0.104)))"/>
+            <EndY V="220" F="PNTY(Parent.LOCPNT(Shape101.GeomCrossPt(0,2,0.104)))"/>
+        </ConPoints>
+        <Transform>
+            <Width V="0" F="EndX-BeginX"/>
+            <Height V="50" F="EndY-BeginY"/>
+            <Angle V="0" F="GUARD(0)"/>
+            <GPinX V="615.824" F="(BeginX+EndX)*0.5"/>
+            <GPinY V="195" F="(BeginY+EndY)*0.5"/>
+            <LocPinX V="0" R="0.5" M="1"/>
+            <LocPinY V="25" R="0.5" M="2"/>
+            <FlipX V="0" F="GUARD(FALSE)"/>
+            <FlipY V="0" F="GUARD(FALSE)"/>
+            <EndTag V="1" F="Shape101.XTrans"/>
+        </Transform>
+        <LevelData>
+            <LibId V="267"/>
+        </LevelData>
+        <Misc/>
+        <ShapeFormat QuickMask="99">
+            <FillFormat Type="None"/>
+            <LineFormat>
+                <LineWeight V="1"/>
+                <LineCap V="Flat"/>
+                <LinePattern ID="1"/>
+                <BeginArrow ID="0" Size="4"/>
+                <EndArrow ID="4" Size="3"/>
+                <LineFill Type="Solid">
+                    <Color V="#ff191919" ThemeColor="2" Tint="1" Ref="#000"/>
+                </LineFill>
+            </LineFormat>
+            <EffectFormat>
+                <Shadow Mode="0"/>
+            </EffectFormat>
+        </ShapeFormat>
+        <Texts>
+            <Text ID="1" Name="T1" ExtendMode="2">
+                <Transform>
+                    <Width V="2" F="GUARD(TEXTWIDTH(Text.T1))"/>
+                    <Height V="27" F="GUARD(TEXTHEIGHT(Text.T1))"/>
+                    <Angle V="0"/>
+                    <GPinX V="0"/>
+                    <GPinY V="23.7059"/>
+                    <LocPinX V="1" F="Text.T1.Width*0.5"/>
+                    <LocPinY V="13.5" F="Text.T1.Height*0.5"/>
+                    <TxtField V="" U="STR"/>
+                </Transform>
+                <TextBlock VAlign="Center" TextFormatMask="0">
+                    <Color V="#ff191919"/>
+                    <Character IX="0" Family="Arial" Size="12" Color="#191919" BkColor="#ffffff"/>
+                    <Paragraph IX="0" SpLine="100" Align="4" IndFirst="0" IndLeft="0" IndRight="0" SpaceBefore="0" SpaceAfter="0"/>
+                </TextBlock>
+            </Text>
+        </Texts>
+        <Geometries>
+            <Geometry>
+                <NoFill V="1"/>
+                <NoLine V="0"/>
+                <Closed V="0"/>
+                <NoShow V="0"/>
+                <NoSnap V="1"/>
+                <MoveTo>
+                    <X V="0"/>
+                    <Y V="0"/>
+                </MoveTo>
+                <LineTo>
+                    <X V="0"/>
+                    <Y V="50"/>
+                </LineTo>
+            </Geometry>
+        </Geometries>
+        <ConnectorLayout Relayout="FALSE" IgnoreJump="FALSE" Style="0"/>
+    </Shape>
+    <Shape Type="ConnectLine" ID="105" Layer="2" NameU="Line Connector">
+        <ConPoints>
+            <BeginX V="885"/>
+            <BeginY V="321"/>
+            <EndX V="885" F="PNTX(Parent.LOCPNT(Shape103.PARPNT(Shape103.CPoints.X1,Shape103.CPoints.Y1)))"/>
+            <EndY V="265" F="PNTY(Parent.LOCPNT(Shape103.PARPNT(Shape103.CPoints.X1,Shape103.CPoints.Y1)))"/>
+        </ConPoints>
+        <Transform>
+            <Width V="0" F="EndX-BeginX"/>
+            <Height V="-56" F="EndY-BeginY"/>
+            <Angle V="0" F="GUARD(0)"/>
+            <GPinX V="885" F="(BeginX+EndX)*0.5"/>
+            <GPinY V="293" F="(BeginY+EndY)*0.5"/>
+            <LocPinX V="0" R="0.5" M="1"/>
+            <LocPinY V="-28" R="0.5" M="2"/>
+            <FlipX V="0" F="GUARD(FALSE)"/>
+            <FlipY V="0" F="GUARD(FALSE)"/>
+            <EndTag V="0" F="Shape103.XTrans"/>
+        </Transform>
+        <LevelData>
+            <LibId V="267"/>
+        </LevelData>
+        <Misc/>
+        <ShapeFormat QuickMask="99">
+            <FillFormat Type="None"/>
+            <LineFormat>
+                <LineWeight V="1"/>
+                <LineCap V="Flat"/>
+                <LinePattern ID="1"/>
+                <BeginArrow ID="0" Size="4"/>
+                <EndArrow ID="4" Size="3"/>
+                <LineFill Type="Solid">
+                    <Color V="#ff191919" ThemeColor="2" Tint="1" Ref="#000"/>
+                </LineFill>
+            </LineFormat>
+            <EffectFormat>
+                <Shadow Mode="0"/>
+            </EffectFormat>
+        </ShapeFormat>
+        <Texts>
+            <Text ID="1" Name="T1" ExtendMode="2">
+                <Transform>
+                    <Width V="2" F="GUARD(TEXTWIDTH(Text.T1))"/>
+                    <Height V="27" F="GUARD(TEXTHEIGHT(Text.T1))"/>
+                    <Angle V="0"/>
+                    <GPinX V="0"/>
+                    <GPinY V="-26.5506"/>
+                    <LocPinX V="1" F="Text.T1.Width*0.5"/>
+                    <LocPinY V="13.5" F="Text.T1.Height*0.5"/>
+                    <TxtField V="" U="STR"/>
+                </Transform>
+                <TextBlock VAlign="Center" TextFormatMask="0">
+                    <Color V="#ff191919"/>
+                    <Character IX="0" Family="Arial" Size="12" Color="#191919" BkColor="#ffffff"/>
+                    <Paragraph IX="0" SpLine="100" Align="4" IndFirst="0" IndLeft="0" IndRight="0" SpaceBefore="0" SpaceAfter="0"/>
+                </TextBlock>
+            </Text>
+        </Texts>
+        <Geometries>
+            <Geometry>
+                <NoFill V="1"/>
+                <NoLine V="0"/>
+                <Closed V="0"/>
+                <NoShow V="0"/>
+                <NoSnap V="1"/>
+                <MoveTo>
+                    <X V="0"/>
+                    <Y V="0"/>
+                </MoveTo>
+                <LineTo>
+                    <X V="0"/>
+                    <Y V="-56"/>
+                </LineTo>
+            </Geometry>
+        </Geometries>
+        <ConnectorLayout Relayout="FALSE" IgnoreJump="FALSE" Style="0"/>
+    </Shape>
+    <Shape Type="ConnectLine" ID="107" Layer="2" NameU="Line Connector">
+        <ConPoints>
+            <BeginX V="268"/>
+            <BeginY V="416"/>
+            <EndX V="268" F="PNTX(Parent.LOCPNT(Shape102.PARPNT(Shape102.CPoints.X1,Shape102.CPoints.Y1)))"/>
+            <EndY V="265" F="PNTY(Parent.LOCPNT(Shape102.PARPNT(Shape102.CPoints.X1,Shape102.CPoints.Y1)))"/>
+        </ConPoints>
+        <Transform>
+            <Width V="0" F="EndX-BeginX"/>
+            <Height V="-151" F="EndY-BeginY"/>
+            <Angle V="0" F="GUARD(0)"/>
+            <GPinX V="268" F="(BeginX+EndX)*0.5"/>
+            <GPinY V="340.5" F="(BeginY+EndY)*0.5"/>
+            <LocPinX V="0" R="0.5" M="1"/>
+            <LocPinY V="-75.5" R="0.5" M="2"/>
+            <FlipX V="0" F="GUARD(FALSE)"/>
+            <FlipY V="0" F="GUARD(FALSE)"/>
+            <EndTag V="0" F="Shape102.XTrans"/>
+        </Transform>
+        <LevelData>
+            <LibId V="267"/>
+        </LevelData>
+        <Misc/>
+        <ShapeFormat QuickMask="99">
+            <FillFormat Type="None"/>
+            <LineFormat>
+                <LineWeight V="1"/>
+                <LineCap V="Flat"/>
+                <LinePattern ID="1"/>
+                <BeginArrow ID="0" Size="4"/>
+                <EndArrow ID="4" Size="3"/>
+                <LineFill Type="Solid">
+                    <Color V="#ff191919" ThemeColor="2" Tint="1" Ref="#000"/>
+                </LineFill>
+            </LineFormat>
+            <EffectFormat>
+                <Shadow Mode="0"/>
+            </EffectFormat>
+        </ShapeFormat>
+        <Texts>
+            <Text ID="1" Name="T1" ExtendMode="2">
+                <Transform>
+                    <Width V="2" F="GUARD(TEXTWIDTH(Text.T1))"/>
+                    <Height V="27" F="GUARD(TEXTHEIGHT(Text.T1))"/>
+                    <Angle V="0"/>
+                    <GPinX V="0"/>
+                    <GPinY V="-71.5917"/>
+                    <LocPinX V="1" F="Text.T1.Width*0.5"/>
+                    <LocPinY V="13.5" F="Text.T1.Height*0.5"/>
+                    <TxtField V="" U="STR"/>
+                </Transform>
+                <TextBlock VAlign="Center" TextFormatMask="0">
+                    <Color V="#ff191919"/>
+                    <Character IX="0" Family="Arial" Size="12" Color="#191919" BkColor="#ffffff"/>
+                    <Paragraph IX="0" SpLine="100" Align="4" IndFirst="0" IndLeft="0" IndRight="0" SpaceBefore="0" SpaceAfter="0"/>
+                </TextBlock>
+            </Text>
+        </Texts>
+        <Geometries>
+            <Geometry>
+                <NoFill V="1"/>
+                <NoLine V="0"/>
+                <Closed V="0"/>
+                <NoShow V="0"/>
+                <NoSnap V="1"/>
+                <MoveTo>
+                    <X V="0"/>
+                    <Y V="0"/>
+                </MoveTo>
+                <LineTo>
+                    <X V="0"/>
+                    <Y V="-151"/>
+                </LineTo>
+            </Geometry>
+        </Geometries>
+        <ConnectorLayout Relayout="FALSE" IgnoreJump="FALSE" Style="0"/>
+    </Shape>
+    <Shape Type="ConnectLine" ID="108" Layer="2" NameU="Line Connector">
+        <ConPoints>
+            <BeginX V="309.764"/>
+            <BeginY V="321"/>
+            <EndX V="309.764" F="PNTX(Parent.LOCPNT(Shape102.GeomCrossPt(0,6,0.894)))"/>
+            <EndY V="265" F="PNTY(Parent.LOCPNT(Shape102.GeomCrossPt(0,6,0.894)))"/>
+        </ConPoints>
+        <Transform>
+            <Width V="0" F="EndX-BeginX"/>
+            <Height V="-56" F="EndY-BeginY"/>
+            <Angle V="0" F="GUARD(0)"/>
+            <GPinX V="309.764" F="(BeginX+EndX)*0.5"/>
+            <GPinY V="293" F="(BeginY+EndY)*0.5"/>
+            <LocPinX V="0" R="0.5" M="1"/>
+            <LocPinY V="-28" R="0.5" M="2"/>
+            <FlipX V="0" F="GUARD(FALSE)"/>
+            <FlipY V="0" F="GUARD(FALSE)"/>
+            <EndTag V="0" F="Shape102.XTrans"/>
+        </Transform>
+        <LevelData>
+            <LibId V="267"/>
+        </LevelData>
+        <Misc/>
+        <ShapeFormat QuickMask="99">
+            <FillFormat Type="None"/>
+            <LineFormat>
+                <LineWeight V="1"/>
+                <LineCap V="Flat"/>
+                <LinePattern ID="1"/>
+                <BeginArrow ID="0" Size="4"/>
+                <EndArrow ID="4" Size="3"/>
+                <LineFill Type="Solid">
+                    <Color V="#ff191919" ThemeColor="2" Tint="1" Ref="#000"/>
+                </LineFill>
+            </LineFormat>
+            <EffectFormat>
+                <Shadow Mode="0"/>
+            </EffectFormat>
+        </ShapeFormat>
+        <Texts>
+            <Text ID="1" Name="T1" ExtendMode="2">
+                <Transform>
+                    <Width V="2" F="GUARD(TEXTWIDTH(Text.T1))"/>
+                    <Height V="27" F="GUARD(TEXTHEIGHT(Text.T1))"/>
+                    <Angle V="0"/>
+                    <GPinX V="0"/>
+                    <GPinY V="-26.5506"/>
+                    <LocPinX V="1" F="Text.T1.Width*0.5"/>
+                    <LocPinY V="13.5" F="Text.T1.Height*0.5"/>
+                    <TxtField V="" U="STR"/>
+                </Transform>
+                <TextBlock VAlign="Center" TextFormatMask="0">
+                    <Color V="#ff191919"/>
+                    <Character IX="0" Family="Arial" Size="12" Color="#191919" BkColor="#ffffff"/>
+                    <Paragraph IX="0" SpLine="100" Align="4" IndFirst="0" IndLeft="0" IndRight="0" SpaceBefore="0" SpaceAfter="0"/>
+                </TextBlock>
+            </Text>
+        </Texts>
+        <Geometries>
+            <Geometry>
+                <NoFill V="1"/>
+                <NoLine V="0"/>
+                <Closed V="0"/>
+                <NoShow V="0"/>
+                <NoSnap V="1"/>
+                <MoveTo>
+                    <X V="0"/>
+                    <Y V="0"/>
+                </MoveTo>
+                <LineTo>
+                    <X V="0"/>
+                    <Y V="-56"/>
+                </LineTo>
+            </Geometry>
+        </Geometries>
+        <ConnectorLayout Relayout="FALSE" IgnoreJump="FALSE" Style="0"/>
+    </Shape>
+    <Shape Type="ConnectLine" ID="109" Layer="2" NameU="Line Connector">
+        <ConPoints>
+            <BeginX V="512.744"/>
+            <BeginY V="170"/>
+            <EndX V="511.808" F="PNTX(Parent.LOCPNT(Shape101.GeomCrossPt(0,2,0.895)))"/>
+            <EndY V="220" F="PNTY(Parent.LOCPNT(Shape101.GeomCrossPt(0,2,0.895)))"/>
+        </ConPoints>
+        <Transform>
+            <Width V="-0.936" F="EndX-BeginX"/>
+            <Height V="50" F="EndY-BeginY"/>
+            <Angle V="0" F="GUARD(0)"/>
+            <GPinX V="512.276" F="(BeginX+EndX)*0.5"/>
+            <GPinY V="195" F="(BeginY+EndY)*0.5"/>
+            <LocPinX V="-0.468" R="0.5" M="1"/>
+            <LocPinY V="25" R="0.5" M="2"/>
+            <FlipX V="0" F="GUARD(FALSE)"/>
+            <FlipY V="0" F="GUARD(FALSE)"/>
+            <EndTag V="1" F="Shape101.XTrans"/>
+        </Transform>
+        <LevelData>
+            <LibId V="267"/>
+        </LevelData>
+        <Misc/>
+        <ShapeFormat QuickMask="99">
+            <FillFormat Type="None"/>
+            <LineFormat>
+                <LineWeight V="1"/>
+                <LineCap V="Flat"/>
+                <LinePattern ID="1"/>
+                <BeginArrow ID="0" Size="4"/>
+                <EndArrow ID="4" Size="3"/>
+                <LineFill Type="Solid">
+                    <Color V="#ff191919" ThemeColor="2" Tint="1" Ref="#000"/>
+                </LineFill>
+            </LineFormat>
+            <EffectFormat>
+                <Shadow Mode="0"/>
+            </EffectFormat>
+        </ShapeFormat>
+        <Texts>
+            <Text ID="1" Name="T1" ExtendMode="2">
+                <Transform>
+                    <Width V="2" F="GUARD(TEXTWIDTH(Text.T1))"/>
+                    <Height V="27" F="GUARD(TEXTHEIGHT(Text.T1))"/>
+                    <Angle V="0"/>
+                    <GPinX V="-0.443774"/>
+                    <GPinY V="23.7059"/>
+                    <LocPinX V="1" F="Text.T1.Width*0.5"/>
+                    <LocPinY V="13.5" F="Text.T1.Height*0.5"/>
+                    <TxtField V="" U="STR"/>
+                </Transform>
+                <TextBlock VAlign="Center" TextFormatMask="0">
+                    <Color V="#ff191919"/>
+                    <Character IX="0" Family="Arial" Size="12" Color="#191919" BkColor="#ffffff"/>
+                    <Paragraph IX="0" SpLine="100" Align="4" IndFirst="0" IndLeft="0" IndRight="0" SpaceBefore="0" SpaceAfter="0"/>
+                </TextBlock>
+            </Text>
+        </Texts>
+        <Geometries>
+            <Geometry>
+                <NoFill V="1"/>
+                <NoLine V="0"/>
+                <Closed V="0"/>
+                <NoShow V="0"/>
+                <NoSnap V="1"/>
+                <MoveTo>
+                    <X V="0"/>
+                    <Y V="0"/>
+                </MoveTo>
+                <LineTo>
+                    <X V="-0.936"/>
+                    <Y V="50"/>
+                </LineTo>
+            </Geometry>
+        </Geometries>
+        <ConnectorLayout Relayout="FALSE" IgnoreJump="FALSE" Style="0"/>
+    </Shape>
+    <Shape Type="ConnectLine" ID="110" Layer="2" NameU="Line Connector">
+        <ConPoints>
+            <BeginX V="444"/>
+            <BeginY V="246"/>
+            <EndX V="493.037" F="PNTX(Parent.LOCPNT(Shape101.GeomCrossPt(1,0,0.014)))"/>
+            <EndY V="246" F="PNTY(Parent.LOCPNT(Shape101.GeomCrossPt(1,0,0.014)))"/>
+        </ConPoints>
+        <Transform>
+            <Width V="49.037" F="EndX-BeginX"/>
+            <Height V="0" F="EndY-BeginY"/>
+            <Angle V="0" F="GUARD(0)"/>
+            <GPinX V="468.519" F="(BeginX+EndX)*0.5"/>
+            <GPinY V="246" F="(BeginY+EndY)*0.5"/>
+            <LocPinX V="24.5185" R="0.5" M="1"/>
+            <LocPinY V="0" R="0.5" M="2"/>
+            <FlipX V="0" F="GUARD(FALSE)"/>
+            <FlipY V="0" F="GUARD(FALSE)"/>
+            <BeginTag V="1" F="BeginX"/>
+            <EndTag V="1" F="Shape101.XTrans"/>
+        </Transform>
+        <LevelData>
+            <LibId V="267"/>
+        </LevelData>
+        <Misc/>
+        <ShapeFormat QuickMask="99">
+            <FillFormat Type="None"/>
+            <LineFormat>
+                <LineWeight V="1"/>
+                <LineCap V="Flat"/>
+                <LinePattern ID="1"/>
+                <BeginArrow ID="0" Size="4"/>
+                <EndArrow ID="4" Size="3"/>
+                <LineFill Type="Solid">
+                    <Color V="#ff191919" ThemeColor="2" Tint="1" Ref="#000"/>
+                </LineFill>
+            </LineFormat>
+            <EffectFormat>
+                <Shadow Mode="0"/>
+            </EffectFormat>
+        </ShapeFormat>
+        <Texts>
+            <Text ID="1" Name="T1" ExtendMode="2">
+                <Transform>
+                    <Width V="2" F="GUARD(TEXTWIDTH(Text.T1))"/>
+                    <Height V="27" F="GUARD(TEXTHEIGHT(Text.T1))"/>
+                    <Angle V="0"/>
+                    <GPinX V="28.3083"/>
+                    <GPinY V="0"/>
+                    <LocPinX V="1" F="Text.T1.Width*0.5"/>
+                    <LocPinY V="13.5" F="Text.T1.Height*0.5"/>
+                    <TxtField V="" U="STR"/>
+                </Transform>
+                <TextBlock VAlign="Center" TextFormatMask="0">
+                    <Color V="#ff191919"/>
+                    <Character IX="0" Family="Arial" Size="12" Color="#191919" BkColor="#ffffff"/>
+                    <Paragraph IX="0" SpLine="100" Align="4" IndFirst="0" IndLeft="0" IndRight="0" SpaceBefore="0" SpaceAfter="0"/>
+                </TextBlock>
+            </Text>
+        </Texts>
+        <Geometries>
+            <Geometry>
+                <NoFill V="1"/>
+                <NoLine V="0"/>
+                <Closed V="0"/>
+                <NoShow V="0"/>
+                <NoSnap V="1"/>
+                <MoveTo>
+                    <X V="0"/>
+                    <Y V="0"/>
+                </MoveTo>
+                <LineTo>
+                    <X V="49.037"/>
+                    <Y V="0"/>
+                </LineTo>
+            </Geometry>
+        </Geometries>
+        <ConnectorLayout Relayout="FALSE" IgnoreJump="FALSE" Style="0"/>
+    </Shape>
+    <Shape Type="ConnectLine" ID="111" Layer="2" NameU="Line Connector">
+        <ConPoints>
+            <BeginX V="690"/>
+            <BeginY V="246"/>
+            <EndX V="636.5"/>
+            <EndY V="246"/>
+        </ConPoints>
+        <Transform>
+            <Width V="-53.5" F="EndX-BeginX"/>
+            <Height V="0" F="EndY-BeginY"/>
+            <Angle V="0" F="GUARD(0)"/>
+            <GPinX V="663.25" F="(BeginX+EndX)*0.5"/>
+            <GPinY V="246" F="(BeginY+EndY)*0.5"/>
+            <LocPinX V="-26.75" R="0.5" M="1"/>
+            <LocPinY V="0" R="0.5" M="2"/>
+            <FlipX V="0" F="GUARD(FALSE)"/>
+            <FlipY V="0" F="GUARD(FALSE)"/>
+            <BeginTag V="1" F="BeginX"/>
+            <EndTag V="1" F="EndX"/>
+        </Transform>
+        <LevelData>
+            <LibId V="267"/>
+        </LevelData>
+        <Misc/>
+        <ShapeFormat QuickMask="99">
+            <FillFormat Type="None"/>
+            <LineFormat>
+                <LineWeight V="1"/>
+                <LineCap V="Flat"/>
+                <LinePattern ID="1"/>
+                <BeginArrow ID="0" Size="4"/>
+                <EndArrow ID="4" Size="3"/>
+                <LineFill Type="Solid">
+                    <Color V="#ff191919" ThemeColor="2" Tint="1" Ref="#000"/>
+                </LineFill>
+            </LineFormat>
+            <EffectFormat>
+                <Shadow Mode="0"/>
+            </EffectFormat>
+        </ShapeFormat>
+        <Texts>
+            <Text ID="1" Name="T1" ExtendMode="2">
+                <Transform>
+                    <Width V="2" F="GUARD(TEXTWIDTH(Text.T1))"/>
+                    <Height V="27" F="GUARD(TEXTHEIGHT(Text.T1))"/>
+                    <Angle V="0"/>
+                    <GPinX V="-25.3653"/>
+                    <GPinY V="0"/>
+                    <LocPinX V="1" F="Text.T1.Width*0.5"/>
+                    <LocPinY V="13.5" F="Text.T1.Height*0.5"/>
+                    <TxtField V="" U="STR"/>
+                </Transform>
+                <TextBlock VAlign="Center" TextFormatMask="0">
+                    <Color V="#ff191919"/>
+                    <Character IX="0" Family="Arial" Size="12" Color="#191919" BkColor="#ffffff"/>
+                    <Paragraph IX="0" SpLine="100" Align="4" IndFirst="0" IndLeft="0" IndRight="0" SpaceBefore="0" SpaceAfter="0"/>
+                </TextBlock>
+            </Text>
+        </Texts>
+        <Geometries>
+            <Geometry>
+                <NoFill V="1"/>
+                <NoLine V="0"/>
+                <Closed V="0"/>
+                <NoShow V="0"/>
+                <NoSnap V="1"/>
+                <MoveTo>
+                    <X V="0"/>
+                    <Y V="0"/>
+                </MoveTo>
+                <LineTo>
+                    <X V="-53.5"/>
+                    <Y V="0"/>
+                </LineTo>
+            </Geometry>
+        </Geometries>
+        <ConnectorLayout Relayout="FALSE" IgnoreJump="FALSE" Style="0"/>
+    </Shape>
+    <Shape Type="TextBlock" ID="114" Layer="2" NameU="Rectangle" Name="Rectangle">
+        <Transform>
+            <Width V="120"/>
+            <Height V="35"/>
+            <Angle V="0"/>
+            <GPinX V="378.26"/>
+            <GPinY V="251.85"/>
+            <LocPinX V="60" R="0.5" M="1"/>
+            <LocPinY V="17.5" R="0.5" M="2"/>
+            <FlipX V="0"/>
+            <FlipY V="0"/>
+        </Transform>
+        <Misc/>
+        <ShapeFormat QuickMask="115">
+            <FillFormat Type="None"/>
+            <LineFormat>
+                <LineWeight V="1"/>
+                <LineCap V="Flat"/>
+                <LinePattern ID="1"/>
+                <BeginArrow ID="0" Size="4"/>
+                <EndArrow ID="0" Size="4"/>
+                <LineFill Type="None"/>
+            </LineFormat>
+            <EffectFormat>
+                <Shadow Mode="0"/>
+            </EffectFormat>
+        </ShapeFormat>
+        <Texts>
+            <Text ID="1" Name="T1" ExtendMode="0">
+                <Transform>
+                    <Width V="120" R="1" M="1"/>
+                    <Height V="35" R="1" M="2"/>
+                    <Angle V="0"/>
+                    <GPinX V="60" R="0.5" M="1"/>
+                    <GPinY V="17.5" R="0.5" M="2"/>
+                    <LocPinX V="60" F="Text.T1.Width*0.5"/>
+                    <LocPinY V="17.5" F="Text.T1.Height*0.5"/>
+                    <TxtField V="" U="STR"/>
+                </Transform>
+                <TextBlock VAlign="Center" TextFormatMask="0">
+                    <Color V="#ff191919"/>
+                    <Character IX="0" Family="Arial" Size="12" Color="#191919"/>
+                    <Paragraph IX="0" SpLine="100" Align="4" IndFirst="0" IndLeft="0" IndRight="0" SpaceBefore="0" SpaceAfter="0"/>
+                    <Text>
+                        <pp PX="0" CX="0">
+                            <tp CX="0">Supply record</tp>
+                        </pp>
+                    </Text>
+                </TextBlock>
+            </Text>
+        </Texts>
+        <Geometries>
+            <Geometry>
+                <NoFill V="0"/>
+                <NoLine V="0"/>
+                <Closed V="1"/>
+                <NoShow V="0"/>
+                <NoSnap V="1"/>
+                <MoveTo>
+                    <X V="0"/>
+                    <Y V="0"/>
+                </MoveTo>
+                <LineTo>
+                    <X V="120" R="1" M="1"/>
+                    <Y V="0"/>
+                </LineTo>
+                <LineTo>
+                    <X V="120" R="1" M="1"/>
+                    <Y V="35" R="1" M="2"/>
+                </LineTo>
+                <LineTo>
+                    <X V="0"/>
+                    <Y V="35" R="1" M="2"/>
+                </LineTo>
+                <LineTo>
+                    <X V="0"/>
+                    <Y V="0"/>
+                </LineTo>
+            </Geometry>
+        </Geometries>
+    </Shape>
+    <Shape Type="TextBlock" ID="115" Layer="2" NameU="Rectangle" Name="Rectangle">
+        <Transform>
+            <Width V="120"/>
+            <Height V="35"/>
+            <Angle V="0"/>
+            <GPinX V="299"/>
+            <GPinY V="165.85"/>
+            <LocPinX V="60" R="0.5" M="1"/>
+            <LocPinY V="17.5" R="0.5" M="2"/>
+            <FlipX V="0"/>
+            <FlipY V="0"/>
+        </Transform>
+        <Misc/>
+        <ShapeFormat QuickMask="115">
+            <FillFormat Type="None"/>
+            <LineFormat>
+                <LineWeight V="1"/>
+                <LineCap V="Flat"/>
+                <LinePattern ID="1"/>
+                <BeginArrow ID="0" Size="4"/>
+                <EndArrow ID="0" Size="4"/>
+                <LineFill Type="None"/>
+            </LineFormat>
+            <EffectFormat>
+                <Shadow Mode="0"/>
+            </EffectFormat>
+        </ShapeFormat>
+        <Texts>
+            <Text ID="1" Name="T1" ExtendMode="0">
+                <Transform>
+                    <Width V="120" R="1" M="1"/>
+                    <Height V="35" R="1" M="2"/>
+                    <Angle V="0"/>
+                    <GPinX V="60" R="0.5" M="1"/>
+                    <GPinY V="17.5" R="0.5" M="2"/>
+                    <LocPinX V="60" F="Text.T1.Width*0.5"/>
+                    <LocPinY V="17.5" F="Text.T1.Height*0.5"/>
+                    <TxtField V="" U="STR"/>
+                </Transform>
+                <TextBlock VAlign="Center" TextFormatMask="0">
+                    <Color V="#ff191919"/>
+                    <Character IX="0" Family="Arial" Size="12" Color="#191919"/>
+                    <Paragraph IX="0" SpLine="100" Align="4" IndFirst="0" IndLeft="0" IndRight="0" SpaceBefore="0" SpaceAfter="0"/>
+                    <Text>
+                        <pp PX="0" CX="0">
+                            <tp CX="0">Stock info</tp>
+                        </pp>
+                    </Text>
+                </TextBlock>
+            </Text>
+        </Texts>
+        <Geometries>
+            <Geometry>
+                <NoFill V="0"/>
+                <NoLine V="0"/>
+                <Closed V="1"/>
+                <NoShow V="0"/>
+                <NoSnap V="1"/>
+                <MoveTo>
+                    <X V="0"/>
+                    <Y V="0"/>
+                </MoveTo>
+                <LineTo>
+                    <X V="120" R="1" M="1"/>
+                    <Y V="0"/>
+                </LineTo>
+                <LineTo>
+                    <X V="120" R="1" M="1"/>
+                    <Y V="35" R="1" M="2"/>
+                </LineTo>
+                <LineTo>
+                    <X V="0"/>
+                    <Y V="35" R="1" M="2"/>
+                </LineTo>
+                <LineTo>
+                    <X V="0"/>
+                    <Y V="0"/>
+                </LineTo>
+            </Geometry>
+        </Geometries>
+    </Shape>
+    <Shape Type="TextBlock" ID="116" Layer="2" NameU="Rectangle" Name="Rectangle">
+        <Transform>
+            <Width V="120"/>
+            <Height V="35"/>
+            <Angle V="0"/>
+            <GPinX V="854"/>
+            <GPinY V="165.85"/>
+            <LocPinX V="60" R="0.5" M="1"/>
+            <LocPinY V="17.5" R="0.5" M="2"/>
+            <FlipX V="0"/>
+            <FlipY V="0"/>
+        </Transform>
+        <Misc/>
+        <ShapeFormat QuickMask="115">
+            <FillFormat Type="None"/>
+            <LineFormat>
+                <LineWeight V="1"/>
+                <LineCap V="Flat"/>
+                <LinePattern ID="1"/>
+                <BeginArrow ID="0" Size="4"/>
+                <EndArrow ID="0" Size="4"/>
+                <LineFill Type="None"/>
+            </LineFormat>
+            <EffectFormat>
+                <Shadow Mode="0"/>
+            </EffectFormat>
+        </ShapeFormat>
+        <Texts>
+            <Text ID="1" Name="T1" ExtendMode="0">
+                <Transform>
+                    <Width V="120" R="1" M="1"/>
+                    <Height V="35" R="1" M="2"/>
+                    <Angle V="0"/>
+                    <GPinX V="60" R="0.5" M="1"/>
+                    <GPinY V="17.5" R="0.5" M="2"/>
+                    <LocPinX V="60" F="Text.T1.Width*0.5"/>
+                    <LocPinY V="17.5" F="Text.T1.Height*0.5"/>
+                    <TxtField V="" U="STR"/>
+                </Transform>
+                <TextBlock VAlign="Center" TextFormatMask="0">
+                    <Color V="#ff191919"/>
+                    <Character IX="0" Family="Arial" Size="12" Color="#191919"/>
+                    <Paragraph IX="0" SpLine="100" Align="4" IndFirst="0" IndLeft="0" IndRight="0" SpaceBefore="0" SpaceAfter="0"/>
+                    <Text>
+                        <pp PX="0" CX="0">
+                            <tp CX="0">Purchase info</tp>
+                        </pp>
+                    </Text>
+                </TextBlock>
+            </Text>
+        </Texts>
+        <Geometries>
+            <Geometry>
+                <NoFill V="0"/>
+                <NoLine V="0"/>
+                <Closed V="1"/>
+                <NoShow V="0"/>
+                <NoSnap V="1"/>
+                <MoveTo>
+                    <X V="0"/>
+                    <Y V="0"/>
+                </MoveTo>
+                <LineTo>
+                    <X V="120" R="1" M="1"/>
+                    <Y V="0"/>
+                </LineTo>
+                <LineTo>
+                    <X V="120" R="1" M="1"/>
+                    <Y V="35" R="1" M="2"/>
+                </LineTo>
+                <LineTo>
+                    <X V="0"/>
+                    <Y V="35" R="1" M="2"/>
+                </LineTo>
+                <LineTo>
+                    <X V="0"/>
+                    <Y V="0"/>
+                </LineTo>
+            </Geometry>
+        </Geometries>
+    </Shape>
+    <Shape Type="TextBlock" ID="117" Layer="2" NameU="Rectangle" Name="Rectangle">
+        <Transform>
+            <Width V="120"/>
+            <Height V="35"/>
+            <Angle V="0"/>
+            <GPinX V="758.26"/>
+            <GPinY V="237.85"/>
+            <LocPinX V="60" R="0.5" M="1"/>
+            <LocPinY V="17.5" R="0.5" M="2"/>
+            <FlipX V="0"/>
+            <FlipY V="0"/>
+        </Transform>
+        <Misc/>
+        <ShapeFormat QuickMask="115">
+            <FillFormat Type="None"/>
+            <LineFormat>
+                <LineWeight V="1"/>
+                <LineCap V="Flat"/>
+                <LinePattern ID="1"/>
+                <BeginArrow ID="0" Size="4"/>
+                <EndArrow ID="0" Size="4"/>
+                <LineFill Type="None"/>
+            </LineFormat>
+            <EffectFormat>
+                <Shadow Mode="0"/>
+            </EffectFormat>
+        </ShapeFormat>
+        <Texts>
+            <Text ID="1" Name="T1" ExtendMode="0">
+                <Transform>
+                    <Width V="120" R="1" M="1"/>
+                    <Height V="35" R="1" M="2"/>
+                    <Angle V="0"/>
+                    <GPinX V="60" R="0.5" M="1"/>
+                    <GPinY V="17.5" R="0.5" M="2"/>
+                    <LocPinX V="60" F="Text.T1.Width*0.5"/>
+                    <LocPinY V="17.5" F="Text.T1.Height*0.5"/>
+                    <TxtField V="" U="STR"/>
+                </Transform>
+                <TextBlock VAlign="Center" TextFormatMask="0">
+                    <Color V="#ff191919"/>
+                    <Character IX="0" Family="Arial" Size="12" Color="#191919"/>
+                    <Paragraph IX="0" SpLine="100" Align="4" IndFirst="0" IndLeft="0" IndRight="0" SpaceBefore="0" SpaceAfter="0"/>
+                    <Text>
+                        <pp PX="0" CX="0">
+                            <tp CX="0">Customer info </tp>
+                        </pp>
+                    </Text>
+                </TextBlock>
+            </Text>
+        </Texts>
+        <Geometries>
+            <Geometry>
+                <NoFill V="0"/>
+                <NoLine V="0"/>
+                <Closed V="1"/>
+                <NoShow V="0"/>
+                <NoSnap V="1"/>
+                <MoveTo>
+                    <X V="0"/>
+                    <Y V="0"/>
+                </MoveTo>
+                <LineTo>
+                    <X V="120" R="1" M="1"/>
+                    <Y V="0"/>
+                </LineTo>
+                <LineTo>
+                    <X V="120" R="1" M="1"/>
+                    <Y V="35" R="1" M="2"/>
+                </LineTo>
+                <LineTo>
+                    <X V="0"/>
+                    <Y V="35" R="1" M="2"/>
+                </LineTo>
+                <LineTo>
+                    <X V="0"/>
+                    <Y V="0"/>
+                </LineTo>
+            </Geometry>
+        </Geometries>
+    </Shape>
+    <Shape Type="TextBlock" ID="119" Layer="2" NameU="Rectangle" Name="Rectangle">
+        <Transform>
+            <Width V="120"/>
+            <Height V="35"/>
+            <Angle V="0"/>
+            <GPinX V="684"/>
+            <GPinY V="313.5"/>
+            <LocPinX V="60" R="0.5" M="1"/>
+            <LocPinY V="17.5" R="0.5" M="2"/>
+            <FlipX V="0"/>
+            <FlipY V="0"/>
+        </Transform>
+        <Misc/>
+        <ShapeFormat QuickMask="115">
+            <FillFormat Type="None"/>
+            <LineFormat>
+                <LineWeight V="1"/>
+                <LineCap V="Flat"/>
+                <LinePattern ID="1"/>
+                <BeginArrow ID="0" Size="4"/>
+                <EndArrow ID="0" Size="4"/>
+                <LineFill Type="None"/>
+            </LineFormat>
+            <EffectFormat>
+                <Shadow Mode="0"/>
+            </EffectFormat>
+        </ShapeFormat>
+        <Texts>
+            <Text ID="1" Name="T1" ExtendMode="0">
+                <Transform>
+                    <Width V="120" R="1" M="1"/>
+                    <Height V="35" R="1" M="2"/>
+                    <Angle V="0"/>
+                    <GPinX V="60" R="0.5" M="1"/>
+                    <GPinY V="17.5" R="0.5" M="2"/>
+                    <LocPinX V="60" F="Text.T1.Width*0.5"/>
+                    <LocPinY V="17.5" F="Text.T1.Height*0.5"/>
+                    <TxtField V="" U="STR"/>
+                </Transform>
+                <TextBlock VAlign="Center" TextFormatMask="0">
+                    <Color V="#ff191919"/>
+                    <Character IX="0" Family="Arial" Size="12" Color="#191919"/>
+                    <Paragraph IX="0" SpLine="100" Align="4" IndFirst="0" IndLeft="0" IndRight="0" SpaceBefore="0" SpaceAfter="0"/>
+                    <Text>
+                        <pp PX="0" CX="0">
+                            <tp CX="0">Payment info</tp>
+                        </pp>
+                    </Text>
+                </TextBlock>
+            </Text>
+        </Texts>
+        <Geometries>
+            <Geometry>
+                <NoFill V="0"/>
+                <NoLine V="0"/>
+                <Closed V="1"/>
+                <NoShow V="0"/>
+                <NoSnap V="1"/>
+                <MoveTo>
+                    <X V="0"/>
+                    <Y V="0"/>
+                </MoveTo>
+                <LineTo>
+                    <X V="120" R="1" M="1"/>
+                    <Y V="0"/>
+                </LineTo>
+                <LineTo>
+                    <X V="120" R="1" M="1"/>
+                    <Y V="35" R="1" M="2"/>
+                </LineTo>
+                <LineTo>
+                    <X V="0"/>
+                    <Y V="35" R="1" M="2"/>
+                </LineTo>
+                <LineTo>
+                    <X V="0"/>
+                    <Y V="0"/>
+                </LineTo>
+            </Geometry>
+        </Geometries>
+    </Shape>
+    <Shape Type="TextBlock" ID="120" Layer="2" NameU="Rectangle" Name="Rectangle">
+        <Transform>
+            <Width V="120"/>
+            <Height V="35"/>
+            <Angle V="0"/>
+            <GPinX V="299"/>
+            <GPinY V="410.85"/>
+            <LocPinX V="60" R="0.5" M="1"/>
+            <LocPinY V="17.5" R="0.5" M="2"/>
+            <FlipX V="0"/>
+            <FlipY V="0"/>
+        </Transform>
+        <Misc/>
+        <ShapeFormat QuickMask="115">
+            <FillFormat Type="None"/>
+            <LineFormat>
+                <LineWeight V="1"/>
+                <LineCap V="Flat"/>
+                <LinePattern ID="1"/>
+                <BeginArrow ID="0" Size="4"/>
+                <EndArrow ID="0" Size="4"/>
+                <LineFill Type="None"/>
+            </LineFormat>
+            <EffectFormat>
+                <Shadow Mode="0"/>
+            </EffectFormat>
+        </ShapeFormat>
+        <Texts>
+            <Text ID="1" Name="T1" ExtendMode="0">
+                <Transform>
+                    <Width V="120" R="1" M="1"/>
+                    <Height V="35" R="1" M="2"/>
+                    <Angle V="0"/>
+                    <GPinX V="60" R="0.5" M="1"/>
+                    <GPinY V="17.5" R="0.5" M="2"/>
+                    <LocPinX V="60" F="Text.T1.Width*0.5"/>
+                    <LocPinY V="17.5" F="Text.T1.Height*0.5"/>
+                    <TxtField V="" U="STR"/>
+                </Transform>
+                <TextBlock VAlign="Center" TextFormatMask="0">
+                    <Color V="#ff191919"/>
+                    <Character IX="0" Family="Arial" Size="12" Color="#191919"/>
+                    <Paragraph IX="0" SpLine="100" Align="4" IndFirst="0" IndLeft="0" IndRight="0" SpaceBefore="0" SpaceAfter="0"/>
+                    <Text>
+                        <pp PX="0" CX="0">
+                            <tp CX="0">Sales</tp>
+                        </pp>
+                    </Text>
+                </TextBlock>
+            </Text>
+        </Texts>
+        <Geometries>
+            <Geometry>
+                <NoFill V="0"/>
+                <NoLine V="0"/>
+                <Closed V="1"/>
+                <NoShow V="0"/>
+                <NoSnap V="1"/>
+                <MoveTo>
+                    <X V="0"/>
+                    <Y V="0"/>
+                </MoveTo>
+                <LineTo>
+                    <X V="120" R="1" M="1"/>
+                    <Y V="0"/>
+                </LineTo>
+                <LineTo>
+                    <X V="120" R="1" M="1"/>
+                    <Y V="35" R="1" M="2"/>
+                </LineTo>
+                <LineTo>
+                    <X V="0"/>
+                    <Y V="35" R="1" M="2"/>
+                </LineTo>
+                <LineTo>
+                    <X V="0"/>
+                    <Y V="0"/>
+                </LineTo>
+            </Geometry>
+        </Geometries>
+    </Shape>
+    <Shape Type="TextBlock" ID="121" Layer="2" NameU="Rectangle" Name="Rectangle">
+        <Transform>
+            <Width V="120"/>
+            <Height V="35"/>
+            <Angle V="0"/>
+            <GPinX V="340"/>
+            <GPinY V="331.35"/>
+            <LocPinX V="60" R="0.5" M="1"/>
+            <LocPinY V="17.5" R="0.5" M="2"/>
+            <FlipX V="0"/>
+            <FlipY V="0"/>
+        </Transform>
+        <Misc/>
+        <ShapeFormat QuickMask="115">
+            <FillFormat Type="None"/>
+            <LineFormat>
+                <LineWeight V="1"/>
+                <LineCap V="Flat"/>
+                <LinePattern ID="1"/>
+                <BeginArrow ID="0" Size="4"/>
+                <EndArrow ID="0" Size="4"/>
+                <LineFill Type="None"/>
+            </LineFormat>
+            <EffectFormat>
+                <Shadow Mode="0"/>
+            </EffectFormat>
+        </ShapeFormat>
+        <Texts>
+            <Text ID="1" Name="T1" ExtendMode="0">
+                <Transform>
+                    <Width V="120" R="1" M="1"/>
+                    <Height V="35" R="1" M="2"/>
+                    <Angle V="0"/>
+                    <GPinX V="60" R="0.5" M="1"/>
+                    <GPinY V="17.5" R="0.5" M="2"/>
+                    <LocPinX V="60" F="Text.T1.Width*0.5"/>
+                    <LocPinY V="17.5" F="Text.T1.Height*0.5"/>
+                    <TxtField V="" U="STR"/>
+                </Transform>
+                <TextBlock VAlign="Center" TextFormatMask="0">
+                    <Color V="#ff191919"/>
+                    <Character IX="0" Family="Arial" Size="12" Color="#191919"/>
+                    <Paragraph IX="0" SpLine="100" Align="4" IndFirst="0" IndLeft="0" IndRight="0" SpaceBefore="0" SpaceAfter="0"/>
+                    <Text>
+                        <pp PX="0" CX="0">
+                            <tp CX="0">Stocks</tp>
+                        </pp>
+                    </Text>
+                </TextBlock>
+            </Text>
+        </Texts>
+        <Geometries>
+            <Geometry>
+                <NoFill V="0"/>
+                <NoLine V="0"/>
+                <Closed V="1"/>
+                <NoShow V="0"/>
+                <NoSnap V="1"/>
+                <MoveTo>
+                    <X V="0"/>
+                    <Y V="0"/>
+                </MoveTo>
+                <LineTo>
+                    <X V="120" R="1" M="1"/>
+                    <Y V="0"/>
+                </LineTo>
+                <LineTo>
+                    <X V="120" R="1" M="1"/>
+                    <Y V="35" R="1" M="2"/>
+                </LineTo>
+                <LineTo>
+                    <X V="0"/>
+                    <Y V="35" R="1" M="2"/>
+                </LineTo>
+                <LineTo>
+                    <X V="0"/>
+                    <Y V="0"/>
+                </LineTo>
+            </Geometry>
+        </Geometries>
+    </Shape>
+    <Shape Type="Line" ID="122" Layer="2" NameU="Straight line pipe" Name="Straight line pipe">
+        <ConPoints>
+            <BeginX V="283"/>
+            <BeginY V="217"/>
+            <EndX V="283"/>
+            <EndY V="180"/>
+        </ConPoints>
+        <Transform>
+            <Width V="37" F="HYP(EndX-BeginX,EndY-BeginY)"/>
+            <Height V="0"/>
+            <Angle V="-90" F="FlipX*180+ATAN2(EndY-BeginY,EndX-BeginX)"/>
+            <GPinX V="283" F="(BeginX+EndX)*0.5"/>
+            <GPinY V="198.5" F="(BeginY+EndY)*0.5"/>
+            <LocPinX V="18.5" R="0.5" M="1"/>
+            <LocPinY V="0" R="0.5" M="2"/>
+            <FlipX V="0"/>
+            <FlipY V="0"/>
+        </Transform>
+        <LevelData>
+            <LibId V="131"/>
+        </LevelData>
+        <Controls>
+            <Control Name="TxtPos1" ID="1">
+                <X V="1" F="Text.T1.Width*0.5"/>
+                <Y V="0" R="0.5" M="2"/>
+                <DynX V="1" F="Controls.TxtPos1.X"/>
+                <DynY V="0" F="Controls.TxtPos1.Y"/>
+                <XBehaviour V="2" U="INT"/>
+                <YBehaviour V="2" U="INT"/>
+                <CanGlue V="0"/>
+                <AutoSnap V="0"/>
+                <Disabled V="1" F="IFV(ISEMPTY(Text.T1),TRUE,FALSE)"/>
+            </Control>
+            <Control Name="TxtPos2" ID="2">
+                <X V="18.5" R="0.5" M="1"/>
+                <Y V="0" R="0.5" M="2"/>
+                <DynX V="18.5" F="Controls.TxtPos2.X"/>
+                <DynY V="0" F="Controls.TxtPos2.Y"/>
+                <XBehaviour V="2" U="INT"/>
+                <YBehaviour V="2" U="INT"/>
+                <CanGlue V="0"/>
+                <AutoSnap V="0"/>
+                <Disabled V="1" F="IFV(ISEMPTY(Text.T2),TRUE,FALSE)"/>
+            </Control>
+            <Control Name="TxtPos3" ID="3">
+                <X V="36" F="Width-Text.T3.Width*0.5"/>
+                <Y V="0" R="0.5" M="2"/>
+                <DynX V="36" F="Controls.TxtPos3.X"/>
+                <DynY V="0" F="Controls.TxtPos3.Y"/>
+                <XBehaviour V="2" U="INT"/>
+                <YBehaviour V="2" U="INT"/>
+                <CanGlue V="0"/>
+                <AutoSnap V="0"/>
+                <Disabled V="1" F="IFV(ISEMPTY(Text.T3),TRUE,FALSE)"/>
+            </Control>
+        </Controls>
+        <Misc/>
+        <ShapeFormat QuickMask="84068">
+            <FillFormat Type="Solid">
+                <Color V="#ffffffff"/>
+            </FillFormat>
+            <LineFormat>
+                <LineWeight V="1"/>
+                <LineCap V="Flat"/>
+                <LinePattern ID="1"/>
+                <BeginArrow ID="0" Size="3"/>
+                <EndArrow ID="0" Size="3"/>
+                <LineFill Type="Solid">
+                    <Color V="#ff3f3f3f" ThemeColor="2" Tint="5" Ref="#000"/>
+                </LineFill>
+            </LineFormat>
+            <EffectFormat>
+                <Shadow Mode="0"/>
+            </EffectFormat>
+        </ShapeFormat>
+        <Texts>
+            <Text ID="1" Name="T1" ExtendMode="2">
+                <Transform>
+                    <Width V="2" F="GUARD(TEXTWIDTH(Text.T1))"/>
+                    <Height V="27" F="GUARD(TEXTHEIGHT(Text.T1))"/>
+                    <Angle V="90" F="-Angle"/>
+                    <GPinX V="1" F="GUARD(Controls.TxtPos1.X)"/>
+                    <GPinY V="0" F="GUARD(Controls.TxtPos1.Y)"/>
+                    <LocPinX V="1" F="Text.T1.Width*0.5"/>
+                    <LocPinY V="13.5" F="Text.T1.Height*0.5"/>
+                    <TxtField V="" U="STR"/>
+                </Transform>
+                <TextBlock VAlign="Center" TextFormatMask="32768">
+                    <Color V="#ff191919"/>
+                    <Character IX="0" Family="Arial" Size="12" Color="#191919" BkColor="#fefefe"/>
+                    <Paragraph IX="0" SpLine="100" Align="4" IndFirst="0" IndLeft="0" IndRight="0" SpaceBefore="0" SpaceAfter="0"/>
+                </TextBlock>
+            </Text>
+            <Text ID="2" Name="T2" ExtendMode="2">
+                <Transform>
+                    <Width V="2" F="GUARD(TEXTWIDTH(Text.T2))"/>
+                    <Height V="27" F="GUARD(TEXTHEIGHT(Text.T2))"/>
+                    <Angle V="90" F="-Angle"/>
+                    <GPinX V="18.5" F="GUARD(Controls.TxtPos2.X)"/>
+                    <GPinY V="0" F="GUARD(Controls.TxtPos2.Y)"/>
+                    <LocPinX V="1" F="Text.T2.Width*0.5"/>
+                    <LocPinY V="13.5" F="Text.T2.Height*0.5"/>
+                    <TxtField V="" U="STR"/>
+                </Transform>
+                <TextBlock VAlign="Center" TextFormatMask="32768">
+                    <Color V="#ff191919"/>
+                    <Character IX="0" Family="Arial" Size="12" Color="#191919" BkColor="#fefefe"/>
+                    <Paragraph IX="0" SpLine="100" Align="4" IndFirst="0" IndLeft="0" IndRight="0" SpaceBefore="0" SpaceAfter="0"/>
+                </TextBlock>
+            </Text>
+            <Text ID="3" Name="T3" ExtendMode="2">
+                <Transform>
+                    <Width V="2" F="GUARD(TEXTWIDTH(Text.T3))"/>
+                    <Height V="27" F="GUARD(TEXTHEIGHT(Text.T3))"/>
+                    <Angle V="90" F="-Angle"/>
+                    <GPinX V="36" F="GUARD(Controls.TxtPos3.X)"/>
+                    <GPinY V="0" F="GUARD(Controls.TxtPos3.Y)"/>
+                    <LocPinX V="1" F="Text.T3.Width*0.5"/>
+                    <LocPinY V="13.5" F="Text.T3.Height*0.5"/>
+                    <TxtField V="" U="STR"/>
+                </Transform>
+                <TextBlock VAlign="Center" TextFormatMask="32768">
+                    <Color V="#ff191919"/>
+                    <Character IX="0" Family="Arial" Size="12" Color="#191919" BkColor="#fefefe"/>
+                    <Paragraph IX="0" SpLine="100" Align="4" IndFirst="0" IndLeft="0" IndRight="0" SpaceBefore="0" SpaceAfter="0"/>
+                </TextBlock>
+            </Text>
+        </Texts>
+        <Geometries>
+            <Geometry>
+                <NoFill V="1"/>
+                <NoLine V="0"/>
+                <Closed V="0"/>
+                <NoShow V="0"/>
+                <NoSnap V="1"/>
+                <MoveTo>
+                    <X V="0" F="0"/>
+                    <Y V="0"/>
+                </MoveTo>
+                <LineTo>
+                    <X V="37" R="1" M="1"/>
+                    <Y V="0"/>
+                </LineTo>
+            </Geometry>
+        </Geometries>
+    </Shape>
+    <Shape Type="Line" ID="123" Layer="2" NameU="Straight line pipe" Name="Straight line pipe">
+        <ConPoints>
+            <BeginX V="340.307"/>
+            <BeginY V="170"/>
+            <EndX V="510"/>
+            <EndY V="170"/>
+        </ConPoints>
+        <Transform>
+            <Width V="169.693" F="HYP(EndX-BeginX,EndY-BeginY)"/>
+            <Height V="0"/>
+            <Angle V="0" F="FlipX*180+ATAN2(EndY-BeginY,EndX-BeginX)"/>
+            <GPinX V="425.154" F="(BeginX+EndX)*0.5"/>
+            <GPinY V="170" F="(BeginY+EndY)*0.5"/>
+            <LocPinX V="84.8465" R="0.5" M="1"/>
+            <LocPinY V="0" R="0.5" M="2"/>
+            <FlipX V="0"/>
+            <FlipY V="0"/>
+        </Transform>
+        <LevelData>
+            <LibId V="131"/>
+        </LevelData>
+        <Controls>
+            <Control Name="TxtPos1" ID="1">
+                <X V="1" F="Text.T1.Width*0.5"/>
+                <Y V="0" R="0.5" M="2"/>
+                <DynX V="1" F="Controls.TxtPos1.X"/>
+                <DynY V="0" F="Controls.TxtPos1.Y"/>
+                <XBehaviour V="2" U="INT"/>
+                <YBehaviour V="2" U="INT"/>
+                <CanGlue V="0"/>
+                <AutoSnap V="0"/>
+                <Disabled V="1" F="IFV(ISEMPTY(Text.T1),TRUE,FALSE)"/>
+            </Control>
+            <Control Name="TxtPos2" ID="2">
+                <X V="84.8465" R="0.5" M="1"/>
+                <Y V="0" R="0.5" M="2"/>
+                <DynX V="84.8465" F="Controls.TxtPos2.X"/>
+                <DynY V="0" F="Controls.TxtPos2.Y"/>
+                <XBehaviour V="2" U="INT"/>
+                <YBehaviour V="2" U="INT"/>
+                <CanGlue V="0"/>
+                <AutoSnap V="0"/>
+                <Disabled V="1" F="IFV(ISEMPTY(Text.T2),TRUE,FALSE)"/>
+            </Control>
+            <Control Name="TxtPos3" ID="3">
+                <X V="168.693" F="Width-Text.T3.Width*0.5"/>
+                <Y V="0" R="0.5" M="2"/>
+                <DynX V="168.693" F="Controls.TxtPos3.X"/>
+                <DynY V="0" F="Controls.TxtPos3.Y"/>
+                <XBehaviour V="2" U="INT"/>
+                <YBehaviour V="2" U="INT"/>
+                <CanGlue V="0"/>
+                <AutoSnap V="0"/>
+                <Disabled V="1" F="IFV(ISEMPTY(Text.T3),TRUE,FALSE)"/>
+            </Control>
+        </Controls>
+        <Misc/>
+        <ShapeFormat QuickMask="84068">
+            <FillFormat Type="Solid">
+                <Color V="#ffffffff"/>
+            </FillFormat>
+            <LineFormat>
+                <LineWeight V="1"/>
+                <LineCap V="Flat"/>
+                <LinePattern ID="1"/>
+                <BeginArrow ID="0" Size="3"/>
+                <EndArrow ID="0" Size="3"/>
+                <LineFill Type="Solid">
+                    <Color V="#ff3f3f3f" ThemeColor="2" Tint="5" Ref="#000"/>
+                </LineFill>
+            </LineFormat>
+            <EffectFormat>
+                <Shadow Mode="0"/>
+            </EffectFormat>
+        </ShapeFormat>
+        <Texts>
+            <Text ID="1" Name="T1" ExtendMode="2">
+                <Transform>
+                    <Width V="2" F="GUARD(TEXTWIDTH(Text.T1))"/>
+                    <Height V="27" F="GUARD(TEXTHEIGHT(Text.T1))"/>
+                    <Angle V="0" F="-Angle"/>
+                    <GPinX V="1" F="GUARD(Controls.TxtPos1.X)"/>
+                    <GPinY V="0" F="GUARD(Controls.TxtPos1.Y)"/>
+                    <LocPinX V="1" F="Text.T1.Width*0.5"/>
+                    <LocPinY V="13.5" F="Text.T1.Height*0.5"/>
+                    <TxtField V="" U="STR"/>
+                </Transform>
+                <TextBlock VAlign="Center" TextFormatMask="32768">
+                    <Color V="#ff191919"/>
+                    <Character IX="0" Family="Arial" Size="12" Color="#191919" BkColor="#fefefe"/>
+                    <Paragraph IX="0" SpLine="100" Align="4" IndFirst="0" IndLeft="0" IndRight="0" SpaceBefore="0" SpaceAfter="0"/>
+                </TextBlock>
+            </Text>
+            <Text ID="2" Name="T2" ExtendMode="2">
+                <Transform>
+                    <Width V="2" F="GUARD(TEXTWIDTH(Text.T2))"/>
+                    <Height V="27" F="GUARD(TEXTHEIGHT(Text.T2))"/>
+                    <Angle V="0" F="-Angle"/>
+                    <GPinX V="84.8465" F="GUARD(Controls.TxtPos2.X)"/>
+                    <GPinY V="0" F="GUARD(Controls.TxtPos2.Y)"/>
+                    <LocPinX V="1" F="Text.T2.Width*0.5"/>
+                    <LocPinY V="13.5" F="Text.T2.Height*0.5"/>
+                    <TxtField V="" U="STR"/>
+                </Transform>
+                <TextBlock VAlign="Center" TextFormatMask="32768">
+                    <Color V="#ff191919"/>
+                    <Character IX="0" Family="Arial" Size="12" Color="#191919" BkColor="#fefefe"/>
+                    <Paragraph IX="0" SpLine="100" Align="4" IndFirst="0" IndLeft="0" IndRight="0" SpaceBefore="0" SpaceAfter="0"/>
+                </TextBlock>
+            </Text>
+            <Text ID="3" Name="T3" ExtendMode="2">
+                <Transform>
+                    <Width V="2" F="GUARD(TEXTWIDTH(Text.T3))"/>
+                    <Height V="27" F="GUARD(TEXTHEIGHT(Text.T3))"/>
+                    <Angle V="0" F="-Angle"/>
+                    <GPinX V="168.693" F="GUARD(Controls.TxtPos3.X)"/>
+                    <GPinY V="0" F="GUARD(Controls.TxtPos3.Y)"/>
+                    <LocPinX V="1" F="Text.T3.Width*0.5"/>
+                    <LocPinY V="13.5" F="Text.T3.Height*0.5"/>
+                    <TxtField V="" U="STR"/>
+                </Transform>
+                <TextBlock VAlign="Center" TextFormatMask="32768">
+                    <Color V="#ff191919"/>
+                    <Character IX="0" Family="Arial" Size="12" Color="#191919" BkColor="#fefefe"/>
+                    <Paragraph IX="0" SpLine="100" Align="4" IndFirst="0" IndLeft="0" IndRight="0" SpaceBefore="0" SpaceAfter="0"/>
+                </TextBlock>
+            </Text>
+        </Texts>
+        <Geometries>
+            <Geometry>
+                <NoFill V="1"/>
+                <NoLine V="0"/>
+                <Closed V="0"/>
+                <NoShow V="0"/>
+                <NoSnap V="1"/>
+                <MoveTo>
+                    <X V="0" F="0"/>
+                    <Y V="0"/>
+                </MoveTo>
+                <LineTo>
+                    <X V="169.693" R="1" M="1"/>
+                    <Y V="0"/>
+                </LineTo>
+            </Geometry>
+        </Geometries>
+    </Shape>
+    <Shape Type="Line" ID="124" Layer="2" NameU="Straight line pipe" Name="Straight line pipe">
+        <ConPoints>
+            <BeginX V="614"/>
+            <BeginY V="170"/>
+            <EndX V="794"/>
+            <EndY V="170"/>
+        </ConPoints>
+        <Transform>
+            <Width V="180" F="HYP(EndX-BeginX,EndY-BeginY)"/>
+            <Height V="0"/>
+            <Angle V="0" F="FlipX*180+ATAN2(EndY-BeginY,EndX-BeginX)"/>
+            <GPinX V="704" F="(BeginX+EndX)*0.5"/>
+            <GPinY V="170" F="(BeginY+EndY)*0.5"/>
+            <LocPinX V="90" R="0.5" M="1"/>
+            <LocPinY V="0" R="0.5" M="2"/>
+            <FlipX V="0"/>
+            <FlipY V="0"/>
+        </Transform>
+        <LevelData>
+            <LibId V="131"/>
+        </LevelData>
+        <Controls>
+            <Control Name="TxtPos1" ID="1">
+                <X V="1" F="Text.T1.Width*0.5"/>
+                <Y V="0" R="0.5" M="2"/>
+                <DynX V="1" F="Controls.TxtPos1.X"/>
+                <DynY V="0" F="Controls.TxtPos1.Y"/>
+                <XBehaviour V="2" U="INT"/>
+                <YBehaviour V="2" U="INT"/>
+                <CanGlue V="0"/>
+                <AutoSnap V="0"/>
+                <Disabled V="1" F="IFV(ISEMPTY(Text.T1),TRUE,FALSE)"/>
+            </Control>
+            <Control Name="TxtPos2" ID="2">
+                <X V="90" R="0.5" M="1"/>
+                <Y V="0" R="0.5" M="2"/>
+                <DynX V="90" F="Controls.TxtPos2.X"/>
+                <DynY V="0" F="Controls.TxtPos2.Y"/>
+                <XBehaviour V="2" U="INT"/>
+                <YBehaviour V="2" U="INT"/>
+                <CanGlue V="0"/>
+                <AutoSnap V="0"/>
+                <Disabled V="1" F="IFV(ISEMPTY(Text.T2),TRUE,FALSE)"/>
+            </Control>
+            <Control Name="TxtPos3" ID="3">
+                <X V="179" F="Width-Text.T3.Width*0.5"/>
+                <Y V="0" R="0.5" M="2"/>
+                <DynX V="179" F="Controls.TxtPos3.X"/>
+                <DynY V="0" F="Controls.TxtPos3.Y"/>
+                <XBehaviour V="2" U="INT"/>
+                <YBehaviour V="2" U="INT"/>
+                <CanGlue V="0"/>
+                <AutoSnap V="0"/>
+                <Disabled V="1" F="IFV(ISEMPTY(Text.T3),TRUE,FALSE)"/>
+            </Control>
+        </Controls>
+        <Misc/>
+        <ShapeFormat QuickMask="84068">
+            <FillFormat Type="Solid">
+                <Color V="#ffffffff"/>
+            </FillFormat>
+            <LineFormat>
+                <LineWeight V="1"/>
+                <LineCap V="Flat"/>
+                <LinePattern ID="1"/>
+                <BeginArrow ID="0" Size="3"/>
+                <EndArrow ID="0" Size="3"/>
+                <LineFill Type="Solid">
+                    <Color V="#ff3f3f3f" ThemeColor="2" Tint="5" Ref="#000"/>
+                </LineFill>
+            </LineFormat>
+            <EffectFormat>
+                <Shadow Mode="0"/>
+            </EffectFormat>
+        </ShapeFormat>
+        <Texts>
+            <Text ID="1" Name="T1" ExtendMode="2">
+                <Transform>
+                    <Width V="2" F="GUARD(TEXTWIDTH(Text.T1))"/>
+                    <Height V="27" F="GUARD(TEXTHEIGHT(Text.T1))"/>
+                    <Angle V="0" F="-Angle"/>
+                    <GPinX V="1" F="GUARD(Controls.TxtPos1.X)"/>
+                    <GPinY V="0" F="GUARD(Controls.TxtPos1.Y)"/>
+                    <LocPinX V="1" F="Text.T1.Width*0.5"/>
+                    <LocPinY V="13.5" F="Text.T1.Height*0.5"/>
+                    <TxtField V="" U="STR"/>
+                </Transform>
+                <TextBlock VAlign="Center" TextFormatMask="32768">
+                    <Color V="#ff191919"/>
+                    <Character IX="0" Family="Arial" Size="12" Color="#191919" BkColor="#fefefe"/>
+                    <Paragraph IX="0" SpLine="100" Align="4" IndFirst="0" IndLeft="0" IndRight="0" SpaceBefore="0" SpaceAfter="0"/>
+                </TextBlock>
+            </Text>
+            <Text ID="2" Name="T2" ExtendMode="2">
+                <Transform>
+                    <Width V="2" F="GUARD(TEXTWIDTH(Text.T2))"/>
+                    <Height V="27" F="GUARD(TEXTHEIGHT(Text.T2))"/>
+                    <Angle V="0" F="-Angle"/>
+                    <GPinX V="90" F="GUARD(Controls.TxtPos2.X)"/>
+                    <GPinY V="0" F="GUARD(Controls.TxtPos2.Y)"/>
+                    <LocPinX V="1" F="Text.T2.Width*0.5"/>
+                    <LocPinY V="13.5" F="Text.T2.Height*0.5"/>
+                    <TxtField V="" U="STR"/>
+                </Transform>
+                <TextBlock VAlign="Center" TextFormatMask="32768">
+                    <Color V="#ff191919"/>
+                    <Character IX="0" Family="Arial" Size="12" Color="#191919" BkColor="#fefefe"/>
+                    <Paragraph IX="0" SpLine="100" Align="4" IndFirst="0" IndLeft="0" IndRight="0" SpaceBefore="0" SpaceAfter="0"/>
+                </TextBlock>
+            </Text>
+            <Text ID="3" Name="T3" ExtendMode="2">
+                <Transform>
+                    <Width V="2" F="GUARD(TEXTWIDTH(Text.T3))"/>
+                    <Height V="27" F="GUARD(TEXTHEIGHT(Text.T3))"/>
+                    <Angle V="0" F="-Angle"/>
+                    <GPinX V="179" F="GUARD(Controls.TxtPos3.X)"/>
+                    <GPinY V="0" F="GUARD(Controls.TxtPos3.Y)"/>
+                    <LocPinX V="1" F="Text.T3.Width*0.5"/>
+                    <LocPinY V="13.5" F="Text.T3.Height*0.5"/>
+                    <TxtField V="" U="STR"/>
+                </Transform>
+                <TextBlock VAlign="Center" TextFormatMask="32768">
+                    <Color V="#ff191919"/>
+                    <Character IX="0" Family="Arial" Size="12" Color="#191919" BkColor="#fefefe"/>
+                    <Paragraph IX="0" SpLine="100" Align="4" IndFirst="0" IndLeft="0" IndRight="0" SpaceBefore="0" SpaceAfter="0"/>
+                </TextBlock>
+            </Text>
+        </Texts>
+        <Geometries>
+            <Geometry>
+                <NoFill V="1"/>
+                <NoLine V="0"/>
+                <Closed V="0"/>
+                <NoShow V="0"/>
+                <NoSnap V="1"/>
+                <MoveTo>
+                    <X V="0" F="0"/>
+                    <Y V="0"/>
+                </MoveTo>
+                <LineTo>
+                    <X V="180" R="1" M="1"/>
+                    <Y V="0"/>
+                </LineTo>
+            </Geometry>
+        </Geometries>
+    </Shape>
+    <Shape Type="Line" ID="125" Layer="2" NameU="Straight line pipe" Name="Straight line pipe">
+        <ConPoints>
+            <BeginX V="869"/>
+            <BeginY V="174"/>
+            <EndX V="869"/>
+            <EndY V="217"/>
+        </ConPoints>
+        <Transform>
+            <Width V="43" F="HYP(EndX-BeginX,EndY-BeginY)"/>
+            <Height V="0"/>
+            <Angle V="90" F="FlipX*180+ATAN2(EndY-BeginY,EndX-BeginX)"/>
+            <GPinX V="869" F="(BeginX+EndX)*0.5"/>
+            <GPinY V="195.5" F="(BeginY+EndY)*0.5"/>
+            <LocPinX V="21.5" R="0.5" M="1"/>
+            <LocPinY V="0" R="0.5" M="2"/>
+            <FlipX V="0"/>
+            <FlipY V="0"/>
+        </Transform>
+        <LevelData>
+            <LibId V="131"/>
+        </LevelData>
+        <Controls>
+            <Control Name="TxtPos1" ID="1">
+                <X V="1" F="Text.T1.Width*0.5"/>
+                <Y V="0" R="0.5" M="2"/>
+                <DynX V="1" F="Controls.TxtPos1.X"/>
+                <DynY V="0" F="Controls.TxtPos1.Y"/>
+                <XBehaviour V="2" U="INT"/>
+                <YBehaviour V="2" U="INT"/>
+                <CanGlue V="0"/>
+                <AutoSnap V="0"/>
+                <Disabled V="1" F="IFV(ISEMPTY(Text.T1),TRUE,FALSE)"/>
+            </Control>
+            <Control Name="TxtPos2" ID="2">
+                <X V="21.5" R="0.5" M="1"/>
+                <Y V="0" R="0.5" M="2"/>
+                <DynX V="21.5" F="Controls.TxtPos2.X"/>
+                <DynY V="0" F="Controls.TxtPos2.Y"/>
+                <XBehaviour V="2" U="INT"/>
+                <YBehaviour V="2" U="INT"/>
+                <CanGlue V="0"/>
+                <AutoSnap V="0"/>
+                <Disabled V="1" F="IFV(ISEMPTY(Text.T2),TRUE,FALSE)"/>
+            </Control>
+            <Control Name="TxtPos3" ID="3">
+                <X V="42" F="Width-Text.T3.Width*0.5"/>
+                <Y V="0" R="0.5" M="2"/>
+                <DynX V="42" F="Controls.TxtPos3.X"/>
+                <DynY V="0" F="Controls.TxtPos3.Y"/>
+                <XBehaviour V="2" U="INT"/>
+                <YBehaviour V="2" U="INT"/>
+                <CanGlue V="0"/>
+                <AutoSnap V="0"/>
+                <Disabled V="1" F="IFV(ISEMPTY(Text.T3),TRUE,FALSE)"/>
+            </Control>
+        </Controls>
+        <Misc/>
+        <ShapeFormat QuickMask="84068">
+            <FillFormat Type="Solid">
+                <Color V="#ffffffff"/>
+            </FillFormat>
+            <LineFormat>
+                <LineWeight V="1"/>
+                <LineCap V="Flat"/>
+                <LinePattern ID="1"/>
+                <BeginArrow ID="0" Size="3"/>
+                <EndArrow ID="0" Size="3"/>
+                <LineFill Type="Solid">
+                    <Color V="#ff3f3f3f" ThemeColor="2" Tint="5" Ref="#000"/>
+                </LineFill>
+            </LineFormat>
+            <EffectFormat>
+                <Shadow Mode="0"/>
+            </EffectFormat>
+        </ShapeFormat>
+        <Texts>
+            <Text ID="1" Name="T1" ExtendMode="2">
+                <Transform>
+                    <Width V="2" F="GUARD(TEXTWIDTH(Text.T1))"/>
+                    <Height V="27" F="GUARD(TEXTHEIGHT(Text.T1))"/>
+                    <Angle V="-90" F="-Angle"/>
+                    <GPinX V="1" F="GUARD(Controls.TxtPos1.X)"/>
+                    <GPinY V="0" F="GUARD(Controls.TxtPos1.Y)"/>
+                    <LocPinX V="1" F="Text.T1.Width*0.5"/>
+                    <LocPinY V="13.5" F="Text.T1.Height*0.5"/>
+                    <TxtField V="" U="STR"/>
+                </Transform>
+                <TextBlock VAlign="Center" TextFormatMask="32768">
+                    <Color V="#ff191919"/>
+                    <Character IX="0" Family="Arial" Size="12" Color="#191919" BkColor="#fefefe"/>
+                    <Paragraph IX="0" SpLine="100" Align="4" IndFirst="0" IndLeft="0" IndRight="0" SpaceBefore="0" SpaceAfter="0"/>
+                </TextBlock>
+            </Text>
+            <Text ID="2" Name="T2" ExtendMode="2">
+                <Transform>
+                    <Width V="2" F="GUARD(TEXTWIDTH(Text.T2))"/>
+                    <Height V="27" F="GUARD(TEXTHEIGHT(Text.T2))"/>
+                    <Angle V="-90" F="-Angle"/>
+                    <GPinX V="21.5" F="GUARD(Controls.TxtPos2.X)"/>
+                    <GPinY V="0" F="GUARD(Controls.TxtPos2.Y)"/>
+                    <LocPinX V="1" F="Text.T2.Width*0.5"/>
+                    <LocPinY V="13.5" F="Text.T2.Height*0.5"/>
+                    <TxtField V="" U="STR"/>
+                </Transform>
+                <TextBlock VAlign="Center" TextFormatMask="32768">
+                    <Color V="#ff191919"/>
+                    <Character IX="0" Family="Arial" Size="12" Color="#191919" BkColor="#fefefe"/>
+                    <Paragraph IX="0" SpLine="100" Align="4" IndFirst="0" IndLeft="0" IndRight="0" SpaceBefore="0" SpaceAfter="0"/>
+                </TextBlock>
+            </Text>
+            <Text ID="3" Name="T3" ExtendMode="2">
+                <Transform>
+                    <Width V="2" F="GUARD(TEXTWIDTH(Text.T3))"/>
+                    <Height V="27" F="GUARD(TEXTHEIGHT(Text.T3))"/>
+                    <Angle V="-90" F="-Angle"/>
+                    <GPinX V="42" F="GUARD(Controls.TxtPos3.X)"/>
+                    <GPinY V="0" F="GUARD(Controls.TxtPos3.Y)"/>
+                    <LocPinX V="1" F="Text.T3.Width*0.5"/>
+                    <LocPinY V="13.5" F="Text.T3.Height*0.5"/>
+                    <TxtField V="" U="STR"/>
+                </Transform>
+                <TextBlock VAlign="Center" TextFormatMask="32768">
+                    <Color V="#ff191919"/>
+                    <Character IX="0" Family="Arial" Size="12" Color="#191919" BkColor="#fefefe"/>
+                    <Paragraph IX="0" SpLine="100" Align="4" IndFirst="0" IndLeft="0" IndRight="0" SpaceBefore="0" SpaceAfter="0"/>
+                </TextBlock>
+            </Text>
+        </Texts>
+        <Geometries>
+            <Geometry>
+                <NoFill V="1"/>
+                <NoLine V="0"/>
+                <Closed V="0"/>
+                <NoShow V="0"/>
+                <NoSnap V="1"/>
+                <MoveTo>
+                    <X V="0" F="0"/>
+                    <Y V="0"/>
+                </MoveTo>
+                <LineTo>
+                    <X V="43" R="1" M="1"/>
+                    <Y V="0"/>
+                </LineTo>
+            </Geometry>
+        </Geometries>
+    </Shape>
+    <Shape Type="Line" ID="126" Layer="2" NameU="Straight line pipe" Name="Straight line pipe">
+        <ConPoints>
+            <BeginX V="368.307"/>
+            <BeginY V="331"/>
+            <EndX V="491"/>
+            <EndY V="331"/>
+        </ConPoints>
+        <Transform>
+            <Width V="122.693" F="HYP(EndX-BeginX,EndY-BeginY)"/>
+            <Height V="0"/>
+            <Angle V="0" F="FlipX*180+ATAN2(EndY-BeginY,EndX-BeginX)"/>
+            <GPinX V="429.654" F="(BeginX+EndX)*0.5"/>
+            <GPinY V="331" F="(BeginY+EndY)*0.5"/>
+            <LocPinX V="61.3465" R="0.5" M="1"/>
+            <LocPinY V="0" R="0.5" M="2"/>
+            <FlipX V="0"/>
+            <FlipY V="0"/>
+        </Transform>
+        <LevelData>
+            <LibId V="131"/>
+        </LevelData>
+        <Controls>
+            <Control Name="TxtPos1" ID="1">
+                <X V="1" F="Text.T1.Width*0.5"/>
+                <Y V="0" R="0.5" M="2"/>
+                <DynX V="1" F="Controls.TxtPos1.X"/>
+                <DynY V="0" F="Controls.TxtPos1.Y"/>
+                <XBehaviour V="2" U="INT"/>
+                <YBehaviour V="2" U="INT"/>
+                <CanGlue V="0"/>
+                <AutoSnap V="0"/>
+                <Disabled V="1" F="IFV(ISEMPTY(Text.T1),TRUE,FALSE)"/>
+            </Control>
+            <Control Name="TxtPos2" ID="2">
+                <X V="61.3465" R="0.5" M="1"/>
+                <Y V="0" R="0.5" M="2"/>
+                <DynX V="61.3465" F="Controls.TxtPos2.X"/>
+                <DynY V="0" F="Controls.TxtPos2.Y"/>
+                <XBehaviour V="2" U="INT"/>
+                <YBehaviour V="2" U="INT"/>
+                <CanGlue V="0"/>
+                <AutoSnap V="0"/>
+                <Disabled V="1" F="IFV(ISEMPTY(Text.T2),TRUE,FALSE)"/>
+            </Control>
+            <Control Name="TxtPos3" ID="3">
+                <X V="121.693" F="Width-Text.T3.Width*0.5"/>
+                <Y V="0" R="0.5" M="2"/>
+                <DynX V="121.693" F="Controls.TxtPos3.X"/>
+                <DynY V="0" F="Controls.TxtPos3.Y"/>
+                <XBehaviour V="2" U="INT"/>
+                <YBehaviour V="2" U="INT"/>
+                <CanGlue V="0"/>
+                <AutoSnap V="0"/>
+                <Disabled V="1" F="IFV(ISEMPTY(Text.T3),TRUE,FALSE)"/>
+            </Control>
+        </Controls>
+        <Misc/>
+        <ShapeFormat QuickMask="84068">
+            <FillFormat Type="Solid">
+                <Color V="#ffffffff"/>
+            </FillFormat>
+            <LineFormat>
+                <LineWeight V="1"/>
+                <LineCap V="Flat"/>
+                <LinePattern ID="1"/>
+                <BeginArrow ID="0" Size="3"/>
+                <EndArrow ID="0" Size="3"/>
+                <LineFill Type="Solid">
+                    <Color V="#ff3f3f3f" ThemeColor="2" Tint="5" Ref="#000"/>
+                </LineFill>
+            </LineFormat>
+            <EffectFormat>
+                <Shadow Mode="0"/>
+            </EffectFormat>
+        </ShapeFormat>
+        <Texts>
+            <Text ID="1" Name="T1" ExtendMode="2">
+                <Transform>
+                    <Width V="2" F="GUARD(TEXTWIDTH(Text.T1))"/>
+                    <Height V="27" F="GUARD(TEXTHEIGHT(Text.T1))"/>
+                    <Angle V="0" F="-Angle"/>
+                    <GPinX V="1" F="GUARD(Controls.TxtPos1.X)"/>
+                    <GPinY V="0" F="GUARD(Controls.TxtPos1.Y)"/>
+                    <LocPinX V="1" F="Text.T1.Width*0.5"/>
+                    <LocPinY V="13.5" F="Text.T1.Height*0.5"/>
+                    <TxtField V="" U="STR"/>
+                </Transform>
+                <TextBlock VAlign="Center" TextFormatMask="32768">
+                    <Color V="#ff191919"/>
+                    <Character IX="0" Family="Arial" Size="12" Color="#191919" BkColor="#fefefe"/>
+                    <Paragraph IX="0" SpLine="100" Align="4" IndFirst="0" IndLeft="0" IndRight="0" SpaceBefore="0" SpaceAfter="0"/>
+                </TextBlock>
+            </Text>
+            <Text ID="2" Name="T2" ExtendMode="2">
+                <Transform>
+                    <Width V="2" F="GUARD(TEXTWIDTH(Text.T2))"/>
+                    <Height V="27" F="GUARD(TEXTHEIGHT(Text.T2))"/>
+                    <Angle V="0" F="-Angle"/>
+                    <GPinX V="61.3465" F="GUARD(Controls.TxtPos2.X)"/>
+                    <GPinY V="0" F="GUARD(Controls.TxtPos2.Y)"/>
+                    <LocPinX V="1" F="Text.T2.Width*0.5"/>
+                    <LocPinY V="13.5" F="Text.T2.Height*0.5"/>
+                    <TxtField V="" U="STR"/>
+                </Transform>
+                <TextBlock VAlign="Center" TextFormatMask="32768">
+                    <Color V="#ff191919"/>
+                    <Character IX="0" Family="Arial" Size="12" Color="#191919" BkColor="#fefefe"/>
+                    <Paragraph IX="0" SpLine="100" Align="4" IndFirst="0" IndLeft="0" IndRight="0" SpaceBefore="0" SpaceAfter="0"/>
+                </TextBlock>
+            </Text>
+            <Text ID="3" Name="T3" ExtendMode="2">
+                <Transform>
+                    <Width V="2" F="GUARD(TEXTWIDTH(Text.T3))"/>
+                    <Height V="27" F="GUARD(TEXTHEIGHT(Text.T3))"/>
+                    <Angle V="0" F="-Angle"/>
+                    <GPinX V="121.693" F="GUARD(Controls.TxtPos3.X)"/>
+                    <GPinY V="0" F="GUARD(Controls.TxtPos3.Y)"/>
+                    <LocPinX V="1" F="Text.T3.Width*0.5"/>
+                    <LocPinY V="13.5" F="Text.T3.Height*0.5"/>
+                    <TxtField V="" U="STR"/>
+                </Transform>
+                <TextBlock VAlign="Center" TextFormatMask="32768">
+                    <Color V="#ff191919"/>
+                    <Character IX="0" Family="Arial" Size="12" Color="#191919" BkColor="#fefefe"/>
+                    <Paragraph IX="0" SpLine="100" Align="4" IndFirst="0" IndLeft="0" IndRight="0" SpaceBefore="0" SpaceAfter="0"/>
+                </TextBlock>
+            </Text>
+        </Texts>
+        <Geometries>
+            <Geometry>
+                <NoFill V="1"/>
+                <NoLine V="0"/>
+                <Closed V="0"/>
+                <NoShow V="0"/>
+                <NoSnap V="1"/>
+                <MoveTo>
+                    <X V="0" F="0"/>
+                    <Y V="0"/>
+                </MoveTo>
+                <LineTo>
+                    <X V="122.693" R="1" M="1"/>
+                    <Y V="0"/>
+                </LineTo>
+            </Geometry>
+        </Geometries>
+    </Shape>
+    <Shape Type="Line" ID="127" Layer="2" NameU="Straight line pipe" Name="Straight line pipe">
+        <ConPoints>
+            <BeginX V="321.307"/>
+            <BeginY V="416"/>
+            <EndX V="539"/>
+            <EndY V="416"/>
+        </ConPoints>
+        <Transform>
+            <Width V="217.693" F="HYP(EndX-BeginX,EndY-BeginY)"/>
+            <Height V="0"/>
+            <Angle V="0" F="FlipX*180+ATAN2(EndY-BeginY,EndX-BeginX)"/>
+            <GPinX V="430.154" F="(BeginX+EndX)*0.5"/>
+            <GPinY V="416" F="(BeginY+EndY)*0.5"/>
+            <LocPinX V="108.846" R="0.5" M="1"/>
+            <LocPinY V="0" R="0.5" M="2"/>
+            <FlipX V="0"/>
+            <FlipY V="0"/>
+        </Transform>
+        <LevelData>
+            <LibId V="131"/>
+        </LevelData>
+        <Controls>
+            <Control Name="TxtPos1" ID="1">
+                <X V="1" F="Text.T1.Width*0.5"/>
+                <Y V="0" R="0.5" M="2"/>
+                <DynX V="1" F="Controls.TxtPos1.X"/>
+                <DynY V="0" F="Controls.TxtPos1.Y"/>
+                <XBehaviour V="2" U="INT"/>
+                <YBehaviour V="2" U="INT"/>
+                <CanGlue V="0"/>
+                <AutoSnap V="0"/>
+                <Disabled V="1" F="IFV(ISEMPTY(Text.T1),TRUE,FALSE)"/>
+            </Control>
+            <Control Name="TxtPos2" ID="2">
+                <X V="108.846" R="0.5" M="1"/>
+                <Y V="0" R="0.5" M="2"/>
+                <DynX V="108.846" F="Controls.TxtPos2.X"/>
+                <DynY V="0" F="Controls.TxtPos2.Y"/>
+                <XBehaviour V="2" U="INT"/>
+                <YBehaviour V="2" U="INT"/>
+                <CanGlue V="0"/>
+                <AutoSnap V="0"/>
+                <Disabled V="1" F="IFV(ISEMPTY(Text.T2),TRUE,FALSE)"/>
+            </Control>
+            <Control Name="TxtPos3" ID="3">
+                <X V="216.693" F="Width-Text.T3.Width*0.5"/>
+                <Y V="0" R="0.5" M="2"/>
+                <DynX V="216.693" F="Controls.TxtPos3.X"/>
+                <DynY V="0" F="Controls.TxtPos3.Y"/>
+                <XBehaviour V="2" U="INT"/>
+                <YBehaviour V="2" U="INT"/>
+                <CanGlue V="0"/>
+                <AutoSnap V="0"/>
+                <Disabled V="1" F="IFV(ISEMPTY(Text.T3),TRUE,FALSE)"/>
+            </Control>
+        </Controls>
+        <Misc/>
+        <ShapeFormat QuickMask="84068">
+            <FillFormat Type="Solid">
+                <Color V="#ffffffff"/>
+            </FillFormat>
+            <LineFormat>
+                <LineWeight V="1"/>
+                <LineCap V="Flat"/>
+                <LinePattern ID="1"/>
+                <BeginArrow ID="0" Size="3"/>
+                <EndArrow ID="0" Size="3"/>
+                <LineFill Type="Solid">
+                    <Color V="#ff3f3f3f" ThemeColor="2" Tint="5" Ref="#000"/>
+                </LineFill>
+            </LineFormat>
+            <EffectFormat>
+                <Shadow Mode="0"/>
+            </EffectFormat>
+        </ShapeFormat>
+        <Texts>
+            <Text ID="1" Name="T1" ExtendMode="2">
+                <Transform>
+                    <Width V="2" F="GUARD(TEXTWIDTH(Text.T1))"/>
+                    <Height V="27" F="GUARD(TEXTHEIGHT(Text.T1))"/>
+                    <Angle V="0" F="-Angle"/>
+                    <GPinX V="1" F="GUARD(Controls.TxtPos1.X)"/>
+                    <GPinY V="0" F="GUARD(Controls.TxtPos1.Y)"/>
+                    <LocPinX V="1" F="Text.T1.Width*0.5"/>
+                    <LocPinY V="13.5" F="Text.T1.Height*0.5"/>
+                    <TxtField V="" U="STR"/>
+                </Transform>
+                <TextBlock VAlign="Center" TextFormatMask="32768">
+                    <Color V="#ff191919"/>
+                    <Character IX="0" Family="Arial" Size="12" Color="#191919" BkColor="#fefefe"/>
+                    <Paragraph IX="0" SpLine="100" Align="4" IndFirst="0" IndLeft="0" IndRight="0" SpaceBefore="0" SpaceAfter="0"/>
+                </TextBlock>
+            </Text>
+            <Text ID="2" Name="T2" ExtendMode="2">
+                <Transform>
+                    <Width V="2" F="GUARD(TEXTWIDTH(Text.T2))"/>
+                    <Height V="27" F="GUARD(TEXTHEIGHT(Text.T2))"/>
+                    <Angle V="0" F="-Angle"/>
+                    <GPinX V="108.846" F="GUARD(Controls.TxtPos2.X)"/>
+                    <GPinY V="0" F="GUARD(Controls.TxtPos2.Y)"/>
+                    <LocPinX V="1" F="Text.T2.Width*0.5"/>
+                    <LocPinY V="13.5" F="Text.T2.Height*0.5"/>
+                    <TxtField V="" U="STR"/>
+                </Transform>
+                <TextBlock VAlign="Center" TextFormatMask="32768">
+                    <Color V="#ff191919"/>
+                    <Character IX="0" Family="Arial" Size="12" Color="#191919" BkColor="#fefefe"/>
+                    <Paragraph IX="0" SpLine="100" Align="4" IndFirst="0" IndLeft="0" IndRight="0" SpaceBefore="0" SpaceAfter="0"/>
+                </TextBlock>
+            </Text>
+            <Text ID="3" Name="T3" ExtendMode="2">
+                <Transform>
+                    <Width V="2" F="GUARD(TEXTWIDTH(Text.T3))"/>
+                    <Height V="27" F="GUARD(TEXTHEIGHT(Text.T3))"/>
+                    <Angle V="0" F="-Angle"/>
+                    <GPinX V="216.693" F="GUARD(Controls.TxtPos3.X)"/>
+                    <GPinY V="0" F="GUARD(Controls.TxtPos3.Y)"/>
+                    <LocPinX V="1" F="Text.T3.Width*0.5"/>
+                    <LocPinY V="13.5" F="Text.T3.Height*0.5"/>
+                    <TxtField V="" U="STR"/>
+                </Transform>
+                <TextBlock VAlign="Center" TextFormatMask="32768">
+                    <Color V="#ff191919"/>
+                    <Character IX="0" Family="Arial" Size="12" Color="#191919" BkColor="#fefefe"/>
+                    <Paragraph IX="0" SpLine="100" Align="4" IndFirst="0" IndLeft="0" IndRight="0" SpaceBefore="0" SpaceAfter="0"/>
+                </TextBlock>
+            </Text>
+        </Texts>
+        <Geometries>
+            <Geometry>
+                <NoFill V="1"/>
+                <NoLine V="0"/>
+                <Closed V="0"/>
+                <NoShow V="0"/>
+                <NoSnap V="1"/>
+                <MoveTo>
+                    <X V="0" F="0"/>
+                    <Y V="0"/>
+                </MoveTo>
+                <LineTo>
+                    <X V="217.693" R="1" M="1"/>
+                    <Y V="0"/>
+                </LineTo>
+            </Geometry>
+        </Geometries>
+    </Shape>
+    <Shape Type="Line" ID="128" Layer="2" NameU="Straight line pipe" Name="Straight line pipe">
+        <ConPoints>
+            <BeginX V="539"/>
+            <BeginY V="416"/>
+            <EndX V="539"/>
+            <EndY V="359"/>
+        </ConPoints>
+        <Transform>
+            <Width V="57" F="HYP(EndX-BeginX,EndY-BeginY)"/>
+            <Height V="0"/>
+            <Angle V="-90" F="FlipX*180+ATAN2(EndY-BeginY,EndX-BeginX)"/>
+            <GPinX V="539" F="(BeginX+EndX)*0.5"/>
+            <GPinY V="387.5" F="(BeginY+EndY)*0.5"/>
+            <LocPinX V="28.5" R="0.5" M="1"/>
+            <LocPinY V="0" R="0.5" M="2"/>
+            <FlipX V="0"/>
+            <FlipY V="0"/>
+        </Transform>
+        <LevelData>
+            <LibId V="131"/>
+        </LevelData>
+        <Controls>
+            <Control Name="TxtPos1" ID="1">
+                <X V="1" F="Text.T1.Width*0.5"/>
+                <Y V="0" R="0.5" M="2"/>
+                <DynX V="1" F="Controls.TxtPos1.X"/>
+                <DynY V="0" F="Controls.TxtPos1.Y"/>
+                <XBehaviour V="2" U="INT"/>
+                <YBehaviour V="2" U="INT"/>
+                <CanGlue V="0"/>
+                <AutoSnap V="0"/>
+                <Disabled V="1" F="IFV(ISEMPTY(Text.T1),TRUE,FALSE)"/>
+            </Control>
+            <Control Name="TxtPos2" ID="2">
+                <X V="28.5" R="0.5" M="1"/>
+                <Y V="0" R="0.5" M="2"/>
+                <DynX V="28.5" F="Controls.TxtPos2.X"/>
+                <DynY V="0" F="Controls.TxtPos2.Y"/>
+                <XBehaviour V="2" U="INT"/>
+                <YBehaviour V="2" U="INT"/>
+                <CanGlue V="0"/>
+                <AutoSnap V="0"/>
+                <Disabled V="1" F="IFV(ISEMPTY(Text.T2),TRUE,FALSE)"/>
+            </Control>
+            <Control Name="TxtPos3" ID="3">
+                <X V="56" F="Width-Text.T3.Width*0.5"/>
+                <Y V="0" R="0.5" M="2"/>
+                <DynX V="56" F="Controls.TxtPos3.X"/>
+                <DynY V="0" F="Controls.TxtPos3.Y"/>
+                <XBehaviour V="2" U="INT"/>
+                <YBehaviour V="2" U="INT"/>
+                <CanGlue V="0"/>
+                <AutoSnap V="0"/>
+                <Disabled V="1" F="IFV(ISEMPTY(Text.T3),TRUE,FALSE)"/>
+            </Control>
+        </Controls>
+        <Misc/>
+        <ShapeFormat QuickMask="84068">
+            <FillFormat Type="Solid">
+                <Color V="#ffffffff"/>
+            </FillFormat>
+            <LineFormat>
+                <LineWeight V="1"/>
+                <LineCap V="Flat"/>
+                <LinePattern ID="1"/>
+                <BeginArrow ID="0" Size="3"/>
+                <EndArrow ID="0" Size="3"/>
+                <LineFill Type="Solid">
+                    <Color V="#ff3f3f3f" ThemeColor="2" Tint="5" Ref="#000"/>
+                </LineFill>
+            </LineFormat>
+            <EffectFormat>
+                <Shadow Mode="0"/>
+            </EffectFormat>
+        </ShapeFormat>
+        <Texts>
+            <Text ID="1" Name="T1" ExtendMode="2">
+                <Transform>
+                    <Width V="2" F="GUARD(TEXTWIDTH(Text.T1))"/>
+                    <Height V="27" F="GUARD(TEXTHEIGHT(Text.T1))"/>
+                    <Angle V="90" F="-Angle"/>
+                    <GPinX V="1" F="GUARD(Controls.TxtPos1.X)"/>
+                    <GPinY V="0" F="GUARD(Controls.TxtPos1.Y)"/>
+                    <LocPinX V="1" F="Text.T1.Width*0.5"/>
+                    <LocPinY V="13.5" F="Text.T1.Height*0.5"/>
+                    <TxtField V="" U="STR"/>
+                </Transform>
+                <TextBlock VAlign="Center" TextFormatMask="32768">
+                    <Color V="#ff191919"/>
+                    <Character IX="0" Family="Arial" Size="12" Color="#191919" BkColor="#fefefe"/>
+                    <Paragraph IX="0" SpLine="100" Align="4" IndFirst="0" IndLeft="0" IndRight="0" SpaceBefore="0" SpaceAfter="0"/>
+                </TextBlock>
+            </Text>
+            <Text ID="2" Name="T2" ExtendMode="2">
+                <Transform>
+                    <Width V="2" F="GUARD(TEXTWIDTH(Text.T2))"/>
+                    <Height V="27" F="GUARD(TEXTHEIGHT(Text.T2))"/>
+                    <Angle V="90" F="-Angle"/>
+                    <GPinX V="28.5" F="GUARD(Controls.TxtPos2.X)"/>
+                    <GPinY V="0" F="GUARD(Controls.TxtPos2.Y)"/>
+                    <LocPinX V="1" F="Text.T2.Width*0.5"/>
+                    <LocPinY V="13.5" F="Text.T2.Height*0.5"/>
+                    <TxtField V="" U="STR"/>
+                </Transform>
+                <TextBlock VAlign="Center" TextFormatMask="32768">
+                    <Color V="#ff191919"/>
+                    <Character IX="0" Family="Arial" Size="12" Color="#191919" BkColor="#fefefe"/>
+                    <Paragraph IX="0" SpLine="100" Align="4" IndFirst="0" IndLeft="0" IndRight="0" SpaceBefore="0" SpaceAfter="0"/>
+                </TextBlock>
+            </Text>
+            <Text ID="3" Name="T3" ExtendMode="2">
+                <Transform>
+                    <Width V="2" F="GUARD(TEXTWIDTH(Text.T3))"/>
+                    <Height V="27" F="GUARD(TEXTHEIGHT(Text.T3))"/>
+                    <Angle V="90" F="-Angle"/>
+                    <GPinX V="56" F="GUARD(Controls.TxtPos3.X)"/>
+                    <GPinY V="0" F="GUARD(Controls.TxtPos3.Y)"/>
+                    <LocPinX V="1" F="Text.T3.Width*0.5"/>
+                    <LocPinY V="13.5" F="Text.T3.Height*0.5"/>
+                    <TxtField V="" U="STR"/>
+                </Transform>
+                <TextBlock VAlign="Center" TextFormatMask="32768">
+                    <Color V="#ff191919"/>
+                    <Character IX="0" Family="Arial" Size="12" Color="#191919" BkColor="#fefefe"/>
+                    <Paragraph IX="0" SpLine="100" Align="4" IndFirst="0" IndLeft="0" IndRight="0" SpaceBefore="0" SpaceAfter="0"/>
+                </TextBlock>
+            </Text>
+        </Texts>
+        <Geometries>
+            <Geometry>
+                <NoFill V="1"/>
+                <NoLine V="0"/>
+                <Closed V="0"/>
+                <NoShow V="0"/>
+                <NoSnap V="1"/>
+                <MoveTo>
+                    <X V="0" F="0"/>
+                    <Y V="0"/>
+                </MoveTo>
+                <LineTo>
+                    <X V="57" R="1" M="1"/>
+                    <Y V="0"/>
+                </LineTo>
+            </Geometry>
+        </Geometries>
+    </Shape>
+    <Shape Type="Line" ID="129" Layer="2" NameU="Straight line pipe" Name="Straight line pipe">
+        <ConPoints>
+            <BeginX V="737"/>
+            <BeginY V="321"/>
+            <EndX V="888"/>
+            <EndY V="321"/>
+        </ConPoints>
+        <Transform>
+            <Width V="151" F="HYP(EndX-BeginX,EndY-BeginY)"/>
+            <Height V="0"/>
+            <Angle V="0" F="FlipX*180+ATAN2(EndY-BeginY,EndX-BeginX)"/>
+            <GPinX V="812.5" F="(BeginX+EndX)*0.5"/>
+            <GPinY V="321" F="(BeginY+EndY)*0.5"/>
+            <LocPinX V="75.5" R="0.5" M="1"/>
+            <LocPinY V="0" R="0.5" M="2"/>
+            <FlipX V="0"/>
+            <FlipY V="0"/>
+        </Transform>
+        <LevelData>
+            <LibId V="131"/>
+        </LevelData>
+        <Controls>
+            <Control Name="TxtPos1" ID="1">
+                <X V="1" F="Text.T1.Width*0.5"/>
+                <Y V="0" R="0.5" M="2"/>
+                <DynX V="1" F="Controls.TxtPos1.X"/>
+                <DynY V="0" F="Controls.TxtPos1.Y"/>
+                <XBehaviour V="2" U="INT"/>
+                <YBehaviour V="2" U="INT"/>
+                <CanGlue V="0"/>
+                <AutoSnap V="0"/>
+                <Disabled V="1" F="IFV(ISEMPTY(Text.T1),TRUE,FALSE)"/>
+            </Control>
+            <Control Name="TxtPos2" ID="2">
+                <X V="75.5" R="0.5" M="1"/>
+                <Y V="0" R="0.5" M="2"/>
+                <DynX V="75.5" F="Controls.TxtPos2.X"/>
+                <DynY V="0" F="Controls.TxtPos2.Y"/>
+                <XBehaviour V="2" U="INT"/>
+                <YBehaviour V="2" U="INT"/>
+                <CanGlue V="0"/>
+                <AutoSnap V="0"/>
+                <Disabled V="1" F="IFV(ISEMPTY(Text.T2),TRUE,FALSE)"/>
+            </Control>
+            <Control Name="TxtPos3" ID="3">
+                <X V="150" F="Width-Text.T3.Width*0.5"/>
+                <Y V="0" R="0.5" M="2"/>
+                <DynX V="150" F="Controls.TxtPos3.X"/>
+                <DynY V="0" F="Controls.TxtPos3.Y"/>
+                <XBehaviour V="2" U="INT"/>
+                <YBehaviour V="2" U="INT"/>
+                <CanGlue V="0"/>
+                <AutoSnap V="0"/>
+                <Disabled V="1" F="IFV(ISEMPTY(Text.T3),TRUE,FALSE)"/>
+            </Control>
+        </Controls>
+        <Misc/>
+        <ShapeFormat QuickMask="84068">
+            <FillFormat Type="Solid">
+                <Color V="#ffffffff"/>
+            </FillFormat>
+            <LineFormat>
+                <LineWeight V="1"/>
+                <LineCap V="Flat"/>
+                <LinePattern ID="1"/>
+                <BeginArrow ID="0" Size="3"/>
+                <EndArrow ID="0" Size="3"/>
+                <LineFill Type="Solid">
+                    <Color V="#ff3f3f3f" ThemeColor="2" Tint="5" Ref="#000"/>
+                </LineFill>
+            </LineFormat>
+            <EffectFormat>
+                <Shadow Mode="0"/>
+            </EffectFormat>
+        </ShapeFormat>
+        <Texts>
+            <Text ID="1" Name="T1" ExtendMode="2">
+                <Transform>
+                    <Width V="2" F="GUARD(TEXTWIDTH(Text.T1))"/>
+                    <Height V="27" F="GUARD(TEXTHEIGHT(Text.T1))"/>
+                    <Angle V="0" F="-Angle"/>
+                    <GPinX V="1" F="GUARD(Controls.TxtPos1.X)"/>
+                    <GPinY V="0" F="GUARD(Controls.TxtPos1.Y)"/>
+                    <LocPinX V="1" F="Text.T1.Width*0.5"/>
+                    <LocPinY V="13.5" F="Text.T1.Height*0.5"/>
+                    <TxtField V="" U="STR"/>
+                </Transform>
+                <TextBlock VAlign="Center" TextFormatMask="32768">
+                    <Color V="#ff191919"/>
+                    <Character IX="0" Family="Arial" Size="12" Color="#191919" BkColor="#fefefe"/>
+                    <Paragraph IX="0" SpLine="100" Align="4" IndFirst="0" IndLeft="0" IndRight="0" SpaceBefore="0" SpaceAfter="0"/>
+                </TextBlock>
+            </Text>
+            <Text ID="2" Name="T2" ExtendMode="2">
+                <Transform>
+                    <Width V="2" F="GUARD(TEXTWIDTH(Text.T2))"/>
+                    <Height V="27" F="GUARD(TEXTHEIGHT(Text.T2))"/>
+                    <Angle V="0" F="-Angle"/>
+                    <GPinX V="75.5" F="GUARD(Controls.TxtPos2.X)"/>
+                    <GPinY V="0" F="GUARD(Controls.TxtPos2.Y)"/>
+                    <LocPinX V="1" F="Text.T2.Width*0.5"/>
+                    <LocPinY V="13.5" F="Text.T2.Height*0.5"/>
+                    <TxtField V="" U="STR"/>
+                </Transform>
+                <TextBlock VAlign="Center" TextFormatMask="32768">
+                    <Color V="#ff191919"/>
+                    <Character IX="0" Family="Arial" Size="12" Color="#191919" BkColor="#fefefe"/>
+                    <Paragraph IX="0" SpLine="100" Align="4" IndFirst="0" IndLeft="0" IndRight="0" SpaceBefore="0" SpaceAfter="0"/>
+                </TextBlock>
+            </Text>
+            <Text ID="3" Name="T3" ExtendMode="2">
+                <Transform>
+                    <Width V="2" F="GUARD(TEXTWIDTH(Text.T3))"/>
+                    <Height V="27" F="GUARD(TEXTHEIGHT(Text.T3))"/>
+                    <Angle V="0" F="-Angle"/>
+                    <GPinX V="150" F="GUARD(Controls.TxtPos3.X)"/>
+                    <GPinY V="0" F="GUARD(Controls.TxtPos3.Y)"/>
+                    <LocPinX V="1" F="Text.T3.Width*0.5"/>
+                    <LocPinY V="13.5" F="Text.T3.Height*0.5"/>
+                    <TxtField V="" U="STR"/>
+                </Transform>
+                <TextBlock VAlign="Center" TextFormatMask="32768">
+                    <Color V="#ff191919"/>
+                    <Character IX="0" Family="Arial" Size="12" Color="#191919" BkColor="#fefefe"/>
+                    <Paragraph IX="0" SpLine="100" Align="4" IndFirst="0" IndLeft="0" IndRight="0" SpaceBefore="0" SpaceAfter="0"/>
+                </TextBlock>
+            </Text>
+        </Texts>
+        <Geometries>
+            <Geometry>
+                <NoFill V="1"/>
+                <NoLine V="0"/>
+                <Closed V="0"/>
+                <NoShow V="0"/>
+                <NoSnap V="1"/>
+                <MoveTo>
+                    <X V="0" F="0"/>
+                    <Y V="0"/>
+                </MoveTo>
+                <LineTo>
+                    <X V="151" R="1" M="1"/>
+                    <Y V="0"/>
+                </LineTo>
+            </Geometry>
+        </Geometries>
+    </Shape>
+    <Shape Type="TextBlock" ID="133" Layer="2" NameU="Rectangle" Name="Rectangle">
+        <Transform>
+            <Width V="120"/>
+            <Height V="35"/>
+            <Angle V="0"/>
+            <GPinX V="563.75"/>
+            <GPinY V="74.5"/>
+            <LocPinX V="60" R="0.5" M="1"/>
+            <LocPinY V="17.5" R="0.5" M="2"/>
+            <FlipX V="0"/>
+            <FlipY V="0"/>
+        </Transform>
+        <Misc/>
+        <ShapeFormat QuickMask="371">
+            <FillFormat Type="Solid">
+                <Color V="#fffda98d" ThemeColor="9" Tint="20" Ref="#fd8851"/>
+            </FillFormat>
+            <LineFormat>
+                <LineWeight V="1"/>
+                <LineCap V="Flat"/>
+                <LinePattern ID="1"/>
+                <BeginArrow ID="0" Size="4"/>
+                <EndArrow ID="0" Size="4"/>
+                <LineFill Type="None"/>
+            </LineFormat>
+            <EffectFormat>
+                <Shadow Mode="0"/>
+            </EffectFormat>
+        </ShapeFormat>
+        <Texts>
+            <Text ID="1" Name="T1" ExtendMode="0">
+                <Transform>
+                    <Width V="120" R="1" M="1"/>
+                    <Height V="35" R="1" M="2"/>
+                    <Angle V="0"/>
+                    <GPinX V="60" R="0.5" M="1"/>
+                    <GPinY V="17.5" R="0.5" M="2"/>
+                    <LocPinX V="60" F="Text.T1.Width*0.5"/>
+                    <LocPinY V="17.5" F="Text.T1.Height*0.5"/>
+                    <TxtField V="" U="STR"/>
+                </Transform>
+                <TextBlock VAlign="Center" TextFormatMask="256">
+                    <Color V="#ff191919"/>
+                    <Character IX="0" Family="Arial" Size="12" Color="#191919"/>
+                    <Paragraph IX="0" SpLine="100" Align="4" IndFirst="0" IndLeft="0" IndRight="0" SpaceBefore="0" SpaceAfter="0"/>
+                    <Text>
+                        <pp PX="0" CX="0">
+                            <tp CX="0">CSMS DFD 0</tp>
+                        </pp>
+                    </Text>
+                </TextBlock>
+            </Text>
+        </Texts>
+        <Geometries>
+            <Geometry>
+                <NoFill V="0"/>
+                <NoLine V="0"/>
+                <Closed V="1"/>
+                <NoShow V="0"/>
+                <NoSnap V="1"/>
+                <MoveTo>
+                    <X V="0"/>
+                    <Y V="0"/>
+                </MoveTo>
+                <LineTo>
+                    <X V="120" R="1" M="1"/>
+                    <Y V="0"/>
+                </LineTo>
+                <LineTo>
+                    <X V="120" R="1" M="1"/>
+                    <Y V="35" R="1" M="2"/>
+                </LineTo>
+                <LineTo>
+                    <X V="0"/>
+                    <Y V="35" R="1" M="2"/>
+                </LineTo>
+                <LineTo>
+                    <X V="0"/>
+                    <Y V="0"/>
+                </LineTo>
+            </Geometry>
+        </Geometries>
+    </Shape>
+    <Connects>
+        <Connect FromShape="104" FromPart="12" FromName="" ToShape="101" ToPart="5" ToName="0?2?0.104"/>
+        <Connect FromShape="105" FromPart="12" FromName="" ToShape="103" ToPart="101" ToName="Pt1"/>
+        <Connect FromShape="107" FromPart="12" FromName="" ToShape="102" ToPart="101" ToName="Pt1"/>
+        <Connect FromShape="108" FromPart="12" FromName="" ToShape="102" ToPart="5" ToName="0?6?0.894"/>
+        <Connect FromShape="110" FromPart="12" FromName="" ToShape="101" ToPart="5" ToName="1?0?0.014"/>
+        <Connect FromShape="109" FromPart="12" FromName="" ToShape="101" ToPart="5" ToName="0?2?0.895"/>
+    </Connects>
+</Page>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Document DocGuid="{ed40b363-bb0f-48b7-a842-11420b488a91}" OS="Linux" Version="11.1.2">
+    <DocConfig>
+        <Solution V="501"/>
+        <SolMask V="0"/>
+        <UpdatePageName V="FALSE"/>
+        <ShowGrid V="TRUE"/>
+        <ShowRuler V="TRUE"/>
+        <ShowGuideline V="TRUE"/>
+        <ShowPageBreak V="TRUE"/>
+        <OrgAutoLayout V="TRUE"/>
+        <mmAutoLayout V="TRUE"/>
+        <mmLockCon V="TRUE"/>
+        <IgnoreDefCntStyle V="FALSE"/>
+        <IgnoreDefFont V="FALSE"/>
+    </DocConfig>
+    <Stencils>
+        <Stencil Path="267"/>
+    </Stencils>
+    <ActivePageIndex V="0"/>
+    <Pages V="1"/>
+    <Dpi V="1"/>
+    <ScreenWidth V="1920"/>
+    <ScreenHeight V="1080"/>
+    <Platform V="desk"/>
+    <CreatedDate V="2022-01-12 10:59:26"/>
+    <Creator V="me"/>
+    <ModifiedDate V="2022-01-12 12:05:01"/>
+    <Modifier V="me"/>
+</Document>
